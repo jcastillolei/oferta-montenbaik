@@ -1,0 +1,93 @@
+{
+    "store.custom#landing-specialized": {
+        "blocks": [
+            "responsive-layout.desktop#specialized-landing",
+            "responsive-layout.mobile#specialized-landing"
+        ]
+    },
+    "responsive-layout.desktop#specialized-landing": {
+        "children": [
+            "image#logo-specialized",
+            "image#banner-specialized-1",
+            "info-card#landing-specialized-1",
+            "info-card#landing-specialized-2",
+            "info-card#landing-specialized-3",
+            "image#banner-specialized-2",
+            "shelf#Landing-1",
+            "shelf#Landing-2",
+            "shelf#Landing-3"
+        ]
+    },
+    "image#logo-specialized": {
+        "props": {
+            "src": "/arquivos/huincha-specialized.png",
+            "blockClass": "logo-landing"
+        }
+    },
+    "image#banner-specialized-1": {
+        "props": {
+            "src": "https://dummyimage.com/1920x600/000/fff",
+            "blockClass": "banner-landing"
+        }
+    },
+    "info-card#landing-specialized-1": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#landing-specialized-2": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#landing-specialized-3": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "image#banner-specialized-2": {
+        "props": {
+            "src": "https://dummyimage.com/1920x600/000/fff",
+            "blockClass": "banner-landing"
+        }
+    },
+    "responsive-layout.mobile#specialized-landing": {
+        "children": [
+            "image#logo-specialized",
+            "image#banner-specialized-1",
+            "info-card#landing-specialized-1",
+            "info-card#landing-specialized-2",
+            "info-card#landing-specialized-3",
+            "image#banner-specialized-2",
+            "shelf#Landing-1",
+            "shelf#Landing-2"
+        ]
+    }
+}

@@ -1,0 +1,499 @@
+{
+  "product-summary.shelf#main": {
+    "children": [
+      /*"vtex.product-highlights@2.x:product-highlights#flag-arrival",*/
+      "product-summary-image",
+      "vtex.store-components:product-brand#shelf",
+      "product-summary-name",
+      "flex-layout.row#contenedor-shelf",
+      "product-rating-inline#shelf",
+      "add-to-cart-button#shelf"
+    ],
+    "props": {
+      "blockClass": "product-summary"
+    }
+  },
+  "product-summary.shelf#category": {
+    "children": [
+      "product-summary-image",
+      "product-summary-brand#category",
+      "product-summary-name#category",
+      "flex-layout.row#contenedor-shelf",
+      "product-rating-inline#shelf",
+      "add-to-cart-button#shelf"
+    ],
+    "props": {
+      "blockClass": "product-summary"
+    }
+  },
+  "product-summary-brand#category": {
+    "props": {
+      "blockClass": "category"
+    }
+  },
+  "product-summary-name#category": {
+    "props": {
+      "blockClass": "category"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#flag-arrival": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["NEW ARRIVAL"]
+      }
+    },
+    "children": [
+      "product-highlight-text#Arrivals"
+    ]
+  },
+  "image#flag-cucarda": {
+    "props": {
+      "src": "/arquivos/ico_locales.png",
+      "blockClass": "flag"
+    }
+  },
+  "product-highlight-text#Arrivals": {
+    "props": {
+      "message": "{highlightName}",
+      /*"link": "/collection/{highlightId}",*/
+      "blockClass": "text-flag"
+    }
+  },
+  "vtex.store-components:product-brand#shelf": {
+    "props": {
+      "displayMode": "text",
+      "loadingPlaceholder": "text",
+      "height": "30px",
+      "blockClass": "marca-product-shelf"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "hoverImage": {
+        "criteria": "index",
+        "index": 1
+      }
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": false,
+      "showListPrice": true,
+      "showInstallments": false,
+      "blockClass": "product-price-vitrina"
+    }
+  },
+  "flex-layout.row#contenedor-shelf": {
+    "children": [
+      "flex-layout.col#Precio-shelf"
+    ],
+    "props": {
+      "blockClass": "row-price-shelf",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#Precio-shelf": {
+    "children": [
+      "flex-layout.row#Precio-porcentaje-shelf",
+      "product-price-savings"
+    ],
+    "props": {
+      "blockClass": "row-price-shelf",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#Precio-porcentaje-shelf": {
+    "children": [
+      "product-selling-price",
+      "product-list-price"
+    ],
+    "props": {
+      "blockClass": "row-price-shelf",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "product-selling-price": {
+    "props": {
+      "markers": [
+        "product-price"
+      ],
+      "message": "{sellingPriceValue}",
+      "blockClass": "product-price-vitrina"
+    }
+  },
+  "product-list-price": {
+    "props": {
+      "markers": [
+        "list-price"
+      ],
+      "message": "{listPriceValue}",
+      "blockClass": "product-list-price-vitrina"
+    }
+  },
+  "flex-layout.row#contenedor-category": {
+    "children": [
+      "flex-layout.col#contenedor-category"
+    ],
+    "props": {
+      "blockClass": "row-price-shelf",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#contenedor-category": {
+    "children": [
+      "product-price#category",
+      "product-price-savings"
+    ],
+    "props": {
+      "blockClass": "row-price-shelf",
+      "preventVerticalStretch": true
+    }
+  },
+  "product-price#category": {
+    "props": {
+      "blockClass": "precio-mejor-categoria"
+    }
+  },
+  "product-price-savings": {
+    "props": {
+      "blockClass": "porcentaje-categoria",
+      "message": "{savingsPercentage} Dcto",
+      "percentageStyle": "compact"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "blockClass": "selector",
+      "displayMode": "slider",
+      "sliderItemsPerPage": 3,
+      "hideImpossibleCombinations": false,
+      "maxItems": 3,
+      "showValueForVariation": "image",
+      "showVariationsLabels": "none"
+    }
+  },
+  "add-to-cart-button#shelf": {
+    "props": {
+      "text": "VER MÁS",
+      "unavailableText": "AGOTADO",
+      "showTooltipOnSkuNotSelected": true,
+      "onClickBehavior": "go-to-product-page",
+      /*"showToast": true,*/
+      "blockClass": "product-buy-button"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false,
+      "showInstallments": false
+    }
+  },
+  "product-rating-inline#shelf": {
+    "props": {
+      "blockClass": "shelf-rating"
+    }
+  },
+  "shelf.relatedProducts": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Otros que vieron este producto también vieron",
+        "maxItems": 20,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true
+      },
+      "blockClass": "shelf-relacionados"
+    }
+  },
+  "shelf.relatedProducts#tablet": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Otros que vieron este producto también vieron",
+        "maxItems": 20,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true
+      },
+      "blockClass": "shelf-relacionados"
+    }
+  },
+  "shelf.relatedProducts#mobile": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Otros que vieron este producto también vieron",
+        "maxItems": 20,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false
+      },
+      "blockClass": "shelf-relacionados"
+    }
+  },
+  "shelf#Los-mas-populares": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 143,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "always",
+      "simulationBehavour": "default",
+      "productList": {
+        "maxItems": 2,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "Los más populares"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Los-mas-populares-tablet": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 143,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "always",
+      "simulationBehavour": "default",
+      "productList": {
+        "maxItems": 2,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "Los más populares"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Los-mas-populares-mobile": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 144,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "always",
+      "simulationBehavour": "default",
+      "productList": {
+        "maxItems": 2,
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Los más populares"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Destacados-2": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": ""
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Destacados-3": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByNameASC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": ""
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Sale": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": ""
+      },
+      "blockClass": "shelf-sale"
+    }
+  },
+  "shelf#Destacados-1-mobile": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "productList": {
+        "maxItems": 2,
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": ""
+      },
+      "blockClass": "shelf-destacados-mobile"
+    }
+  },
+  "shelf#Landing-1": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 145,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Coleccion 1"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Landing-2": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 145,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Coleccion 2"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Landing-3": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 145,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Coleccion 2"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Landing-video-1": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Coleccion 1"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  },
+  "shelf#Landing-video-2": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "collection": 137,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "none",
+      "simulationBehavour": "default",
+      "hideUnavailableItems": false,
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": false,
+        "titleText": "Coleccion 1"
+      },
+      "blockClass": "shelf-destacados"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "store.custom#template-instuticional": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-template-instuticional",
+            "responsive-layout.mobile#mobile-template-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-template-instuticional": {
+        "children": [
+            "image#banner-template-instuticional",
+            "rich-text#titulo-institucional-template",
+            "rich-text#template-instuticional-texto"
+        ]
+    },
+    "image#banner-template-instuticional": {
+        "props": {
+            "src": "https://dummyimage.com/1900x600/000/fff",
+            "width": "100%",
+            "blockClass": "banner-template-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-template": {
+        "props": {
+            "text": "Titulo institucional",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
+        }
+    },
+    "rich-text#template-instuticional-texto": {
+        "props": {
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-servicios-institucional"
+        }
+    },
+    "responsive-layout.mobile#mobile-template-instuticional": {
+        "children": [
+            "image#banner-template-instuticional-mobile",
+            "rich-text#titulo-institucional-template",
+            "rich-text#template-instuticional-texto"
+        ]
+    },
+    "image#banner-template-instuticional-mobile": {
+        "props": {
+            "src": "https://dummyimage.com/480x400/000/fff",
+            "blockClass": "banner-template-instuticional-mobile"
+        }
+    }
+}

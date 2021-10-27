@@ -1,0 +1,488 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-home",
+      "responsive-layout.tablet#desktop-home",
+      "responsive-layout.phone#mobile-home"
+    ]
+  },
+  "responsive-layout.desktop#desktop-home": {
+    "children": [
+      "slider-layout#home",
+      "slider-layout#home-marcas",
+      "flex-layout.row#categorias",
+      "shelf#Los-mas-populares",
+      "rich-text#cinta-home",
+      "rich-text#titulo-videos",
+      "rich-text#fondo-color",
+      "flex-layout.row#videos-home",
+      "rich-text#titulo-noticias",
+      "rich-text#fondo-color",
+      "flex-layout.row#noticias",
+      "rich-text#titulo-instagram",
+      "rich-text#fondo-color",
+      "iframe#instagram",
+      "flex-layout.row#links-home"
+    ]
+  },
+  "flex-layout.row#categorias": {
+    "children": [
+      "flex-layout.row#categorias-left",
+      "flex-layout.row#categorias-right"
+    ],
+    "props": {
+      "blockClass": "categorias-container"
+    }
+  },
+  "flex-layout.row#categorias-left": {
+    "children": [
+      "flex-layout.col#categorias-left"
+    ],
+    "props": {
+      "blockClass": "categorias-left",
+      "width": "65%"
+    }
+  },
+  "flex-layout.col#categorias-left": {
+    "children": [
+      "image#categoria-1",
+      "flex-layout.row#categorias-left-bottom"
+    ],
+    "props": {
+      "blockClass": "col-categorias-left"
+    }
+  },
+  "flex-layout.row#categorias-left-bottom": {
+    "children": [
+      "image#categoria-2",
+      "image#categoria-3"
+    ],
+    "props": {
+      "blockClass": "categorias-left",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#categorias-right": {
+    "children": [
+      "flex-layout.col#categorias-right"
+    ],
+    "props": {
+      "blockClass": "categorias-right",
+      "width": "35%"
+    }
+  },
+  "flex-layout.col#categorias-right": {
+    "children": [
+      "image#categoria-4",
+      "image#categoria-5"
+    ],
+    "props": {
+      "blockClass": "col-categorias-right",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#categoria-1": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/1bef8e5b-866c-43b0-a8e1-3d2970fd0ded___b16c479ea0e8fcf6b966069e5585c0e2.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-categoria-1"
+    }
+  },
+  "image#categoria-2": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/4b1b0eaa-1be5-4536-bf72-3d99ee640b1e___15109f12fb184137f2d4a0705231ca34.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-categoria-2"
+    }
+  },
+  "image#categoria-3": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/157f6582-ad61-4bcb-8512-5c276a763afe___50c3da43939d460a7ef8cb543278e875.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-categoria-3"
+    }
+  },
+  "image#categoria-4": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/41c9742a-cebb-4f51-ac94-394e3fd4c4b0___126a3cf1f670cf19db21a693445fb2d6.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-categoria-4"
+    }
+  },
+  "image#categoria-5": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/86d6d5d9-1b28-4274-8cd7-aa13ce02162c___ead731faa2f2f62c94a5327b2380583c.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-categoria-5"
+    }
+  },
+  "rich-text#cinta-home": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "6 de abril | hasta 35% off + 3 cuotas sin interés con tarjetas banco bice",
+      "blockClass": "cinta-home"
+    }
+  },
+  "rich-text#titulo-videos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "VIDEOS",
+      "blockClass": "titulo-shelf"
+    }
+  },
+  "flex-layout.row#videos-home": {
+    "props": {
+      "blockClass": "row-videos"
+    },
+    "children": [
+      "flex-layout.col#videos-home-1",
+      "flex-layout.col#videos-home-2",
+      "flex-layout.col#videos-home-3"
+    ]
+  },
+  "flex-layout.col#videos-home-1": {
+    "props": {
+      "blockClass": "col-videos"
+    },
+    "children": [
+      "iframe#video-home2-1",
+      "rich-text#texto-video-1"
+    ]
+  },
+  "iframe#video-home2-1": {
+    "props": {
+      "src": "https://www.youtube.com/embed/sL6-BY96c8c",
+      "width": "90%",
+      "height": 215,
+      "blockClass": "video-home"
+    }
+  },
+  "rich-text#texto-video-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Cannondale SUPERSIX EVO disc 105** \n\n  Un completo Review de la Cannondale SuperSix EVO disc 105, la hermana de la bicicleta oficial del team profesional de ruta Education First Pro Cycling.",
+      "blockClass": "texto-video"
+    }
+  },
+  "flex-layout.col#videos-home-2": {
+    "props": {
+      "blockClass": "col-videos"
+    },
+    "children": [
+      "iframe#video-home2-2",
+      "rich-text#texto-video-2"
+    ]
+  },
+  "iframe#video-home2-2": {
+    "props": {
+      "src": "https://www.youtube.com/embed/UrNbd8IfeOM",
+      "width": "90%",
+      "height": 215,
+      "blockClass": "video-home"
+    }
+  },
+  "rich-text#texto-video-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Test e-Bike :: Commencal Meta Power TR29** \n\n  Durante varias semanas tuve la oportunidad de probar la e-bike Commencal Meta Power TR 29, Signature edition.",
+      "blockClass": "texto-video"
+    }
+  },
+  "flex-layout.col#videos-home-3": {
+    "props": {
+      "blockClass": "col-videos"
+    },
+    "children": [
+      "iframe#video-home2-3",
+      "rich-text#texto-video-3"
+    ]
+  },
+  "iframe#video-home2-3": {
+    "props": {
+      "src": "https://www.youtube.com/embed/GfTowY90cpY",
+      "width": "90%",
+      "height": 215,
+      "blockClass": "video-home"
+    }
+  },
+  "rich-text#texto-video-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Viejas Cleteras en Montenbaik TV** \n\n Nos juntamos a conversar con la creadoras de la comunidad Viejas Cleteras, un grupo muy pero muy entretenido de amigas que les gusta andar en bicicleta.",
+      "blockClass": "texto-video"
+    }
+  },
+  "rich-text#titulo-noticias": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "NOTICIAS",
+      "blockClass": "titulo-shelf"
+    }
+  },
+  "rich-text#fondo-color": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " ",
+      "blockClass": "fondo"
+    }
+  },
+  "flex-layout.row#noticias": {
+    "children": [
+      "flex-layout.col#noticias-1",
+      "flex-layout.col#noticias-2",
+      "flex-layout.col#noticias-3",
+      "flex-layout.col#noticias-4"
+    ],
+    "props": {
+      "blockClass": "row-inspiracion",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#noticias-1": {
+    "children": [
+      "image#noticia-1",
+      "rich-text#texto-noticia-1"
+    ],
+    "props": {
+      "blockClass": "col-noticias"
+    }
+  },
+  "flex-layout.col#noticias-2": {
+    "children": [
+      "image#noticia-2",
+      "rich-text#texto-noticia-2"
+    ],
+    "props": {
+      "blockClass": "col-noticias"
+    }
+  },
+  "flex-layout.col#noticias-3": {
+    "children": [
+      "image#noticia-3",
+      "rich-text#texto-noticia-3"
+    ],
+    "props": {
+      "blockClass": "col-noticias"
+    }
+  },
+  "flex-layout.col#noticias-4": {
+    "children": [
+      "image#noticia-4",
+      "rich-text#texto-noticia-4"
+    ],
+    "props": {
+      "blockClass": "col-noticias"
+    }
+  },
+  "image#noticia-1": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/20e23a4e-7c98-48f7-a75d-20382a106b6f___6c07dc850295eee7ad7047e7e295c0a8.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-noticias"
+    }
+  },
+  "rich-text#texto-noticia-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Nueva Cannondale JEKYLL 2022** \n\n Desde los comienzos de Cannondale hemos visto como han apostado a la innovación sin ningún miedo, desde sus primeras bicicletas Súper V, pasando por los prototipos de DH con doble cadena, las horquillas lefty y todo lo que a sido la evolución del modelo Jekyll.",
+      "blockClass": "texto-noticia"
+    }
+  },
+  "image#noticia-2": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/79f4899a-1269-4a89-b672-9442e657f3d0___8ee4587a8238af12f55cb176ee7461dc.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-noticias"
+    }
+  },
+  "rich-text#texto-noticia-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Nueva PROPAIN YUMA** \n\n Como uno de los primeros fabricantes de bicicletas de montaña en dedicarse tanto al segmento infantil, estamos muy orgullosos de presentar la tercera generación de Yuma. Nuestro objetivo era y sigue siendo construir una bicicleta de montaña para niños que no sea en absoluto inferior a las grandes...",
+      "blockClass": "texto-noticia"
+    }
+  },
+  "image#noticia-3": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/da5c5f3c-a41f-4131-a11c-71d1f32dbeb5___f8a91df9210ebbc1ef8cad3707f9e26c.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-noticias"
+    }
+  },
+  "rich-text#texto-noticia-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Cannondale SuperSix EVO Carbon 105 disc** \n\n  La primera cosa que se me vino a la cabeza cuando me tope con esta bici fue, UFFF!!! debe ser muy ágil y extremadamente veloz.",
+      "blockClass": "texto-noticia"
+    }
+  },
+  "image#noticia-4": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/be003f4e-528d-4748-8714-676e8fe62d91___56c4a18c04ec97de94cdf49621bac661.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "imagen-noticias"
+    }
+  },
+  "rich-text#texto-noticia-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**14 años de historia Montenbaik** \n\n  Eduardo “Large” de Solminihac, Matias “El Olímpico” del Solar y Nacho Barbosa se juntan para conversar de los orígenes de Montenbaik y como a sido el camino para llegar al día de hoy.",
+      "blockClass": "texto-noticia"
+    }
+  },
+  "rich-text#titulo-instagram": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "INSTAGRAM",
+      "blockClass": "titulo-shelf"
+    }
+  },
+  "iframe#instagram": {
+    "props": {
+      "src": "https://snapwidget.com/embed/945524",
+      "width": "100%",
+      "height": 275,
+      "blockClass": "instagram"
+    }
+  },
+  "flex-layout.row#links-home": {
+    "children": [
+      "rich-text#link-home-1",
+      "rich-text#link-home-2",
+      "rich-text#link-home-3",
+      "rich-text#link-home-4"
+    ],
+    "props": {
+      "blockClass": "links-home-bottom"
+    }
+  },
+  "rich-text#link-home-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Sigue tu pedido](#)",
+      "blockClass": "link-home"
+    }
+  },
+  "rich-text#link-home-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Despachos a todo Chile](#)",
+      "blockClass": "link-home"
+    }
+  },
+  "rich-text#link-home-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Vende con nosotros](#)",
+      "blockClass": "link-home"
+    }
+  },
+  "rich-text#link-home-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Despacho](#)",
+      "blockClass": "link-home"
+    }
+  },
+  /* TABLET */
+  "responsive-layout.tablet#desktop-home": {
+    "children": [
+      "slider-layout#home",
+      "slider-layout#home-marcas",
+      "flex-layout.row#categorias",
+      "shelf#Los-mas-populares-tablet",
+      "rich-text#cinta-home",
+      "rich-text#titulo-videos",
+      "rich-text#fondo-color",
+      "flex-layout.row#videos-home",
+      "rich-text#titulo-noticias",
+      "rich-text#fondo-color",
+      "flex-layout.row#noticias",
+      "rich-text#titulo-instagram",
+      "rich-text#fondo-color",
+      "iframe#instagram",
+      "flex-layout.row#links-home"
+    ]
+  },
+  /* MOBILE */
+  "responsive-layout.phone#mobile-home": {
+    "children": [
+      "slider-layout#home-mobile",
+      "slider-layout#home-marcas",
+      "flex-layout.row#categorias",
+      "shelf#Los-mas-populares-mobile",
+      "rich-text#cinta-home",
+      "rich-text#titulo-videos",
+      "rich-text#fondo-color",
+      "flex-layout.row#videos-home",
+      "rich-text#titulo-noticias",
+      "rich-text#fondo-color",
+      "flex-layout.row#noticias-mobile",
+      "rich-text#titulo-instagram",
+      "rich-text#fondo-color",
+      "iframe#instagram-mobile",
+      "flex-layout.row#links-home"
+    ]
+  },
+  "flex-layout.row#noticias-mobile": {
+    "children": [
+      "flex-layout.col#noticias-mobile"
+    ],
+    "props": {
+      "blockClass": "noticias-mobile"
+    }
+  },
+  "flex-layout.col#noticias-mobile": {
+    "children": [
+      "flex-layout.col#noticias-1",
+      "flex-layout.col#noticias-2",
+      "flex-layout.col#noticias-3",
+      "flex-layout.col#noticias-4"
+    ],
+    "props": {
+      "blockClass": "col-noticias-mobile"
+    }
+  },
+  "iframe#instagram-mobile": {
+    "props": {
+      "src": "https://snapwidget.com/embed/945524",
+      "width": "100%",
+      "blockClass": "instagram-mobile"
+    }
+  }
+}

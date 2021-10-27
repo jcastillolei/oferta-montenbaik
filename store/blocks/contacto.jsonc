@@ -1,0 +1,115 @@
+{
+    "store.custom#contacto": {
+        "blocks": [
+            "flex-layout.row#contenedor-form"
+        ]
+    },
+    "flex-layout.row#contenedor-form": {
+        "children": [
+            "flex-layout.col#contenedor-form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form",
+            "preventHorizontalStretch": true,
+            "fullwidth": true
+        }
+    },
+    "flex-layout.col#contenedor-form": {
+        "children": [
+            "rich-text#titulo-form-contact",
+            "flex-layout.row#form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form-col"
+        }
+    },
+    "rich-text#titulo-form-contact": {
+        "props": {
+            "text": "Ingresa tus datos para acercarnos tus dudas:",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-form-2"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+            "flex-layout.col#form"
+        ],
+        "props": {
+            "blockClass": "formulario-contacto"
+        }
+    },
+    "flex-layout.col#form": {
+        "children": [
+            "form#Contacto"
+        ],
+        "props": {
+            "blockClass": "col-form"
+        }
+    },
+    "form#Contacto": {
+        "props": {
+            "entity": "CO",
+            "schema": "Contacto",
+            "blockClass": "formulario-contacto"
+        },
+        "children": [
+            "form-input.text#name",
+            "form-input.text#telefono",
+            "form-input.text#email",
+            "form-input.textarea#comentario",
+            "form-submit"
+        ],
+        "blocks": [
+            "form-success"
+        ]
+    },
+    "form-success": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#successSubmit": {
+        "props": {
+            "text": "Se envio con exito su consulta!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#name": {
+        "props": {
+            "pointer": "#/properties/nombre",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#direccion": {
+        "props": {
+            "pointer": "#/properties/direccion",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#email": {
+        "props": {
+            "pointer": "#/properties/email",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#telefono": {
+        "props": {
+            "pointer": "#/properties/telefono",
+            "blockClass": "input"
+        }
+    },
+    "form-input.textarea#comentario": {
+        "props": {
+            "pointer": "#/properties/mensaje",
+            "blockClass": "input"
+        }
+    },
+    "form-submit": {
+        "props": {
+            "label": "Enviar",
+            "blockClass": "boton-enviar"
+        }
+    }
+}

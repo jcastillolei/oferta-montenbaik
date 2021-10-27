@@ -1,0 +1,7527 @@
+{
+  "menu-item#Header-whatsapp": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "tel:+33333333",
+        "text": ""
+      },
+      "blockClass": "header-whatsapp"
+    }
+  },
+  "menu-item#Categorias-Bicicletas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Bicicletas"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Bicicletas"
+    ]
+  },
+  "menu-item#Categorias-Componentes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Componentes"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Componentes"
+    ]
+  },
+  "menu-item#Categorias-Accesorios": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Accesorios"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Accesorios"
+    ]
+  },
+  "menu-item#Categorias-Marcas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Marcas"
+      },
+      "blockClass": "categoria-header"
+    }
+  },
+  "menu-item#Categorias-Hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Hombre"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Hombre"
+    ]
+  },
+  "menu-item#Categorias-Mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Mujer"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Mujer"
+    ]
+  },
+  "menu-item#Categorias-Niños": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Niños"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Niños"
+    ]
+  },
+  "menu-item#Categorias-Destinos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Destinos"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Destinos"
+    ]
+  },
+  "menu-item#Categorias-Ofertas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ofertas"
+      },
+      "blockClass": "categoria-header"
+    }
+  },
+  "menu-item#Categorias-Noticias": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Noticias"
+      },
+      "blockClass": "categoria-header-right"
+    }
+  },
+  "menu-item#Categorias-MontainTV": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "TV"
+      },
+      "blockClass": "categoria-header-right"
+    }
+  },
+  /* SUB MENU BICICLETAS */
+  "menu-item#Bicicletas-montana-trail": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Trail / Enduro"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-cross": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cross Country (XC)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-descenso": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Descenso y Freeride"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-ebike": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "eBike"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-dirt": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Dirt"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-cuadros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-montana-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-ruta": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruta"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-gravel": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Gravel y Cyclocross"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-triatlon": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Triatlon"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-ebike": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "eBike Ruta"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-cuadros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ruta-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-montana": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Montaña"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-ruta": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruta"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-urbanas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Urbanas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Niños"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-cuadros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-electricas-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-race": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "BMX Race"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-freestyle": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "BMX Freestyle"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-dirt": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Dirt"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-trial": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Trial"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-cuadro": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-bmx-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-urbanas-urbanas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Urbanas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-urbanas-fixie": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Fixie"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-urbanas-eBike": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "eBike"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-urbanas-cuadros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-urbanas-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-pedales": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Con Pedales (1 - 3 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro12": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 12 (3 - 4 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro14": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 14 (3 - 5 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro16": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 16 (4 - 6 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro20": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 20 (5 - 8 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro24": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 24 (7 - 10 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-aro26": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Aro 26 (9 - 12 años)"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-cuadros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cuadros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Bicicletas-ninos-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* END SUB MENU BICICLETAS */
+  /* SUB MENU COMPONENTES */
+  "menu-item#Componentes-ruedas-ruedas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruedas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-neumaticos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Neumáticos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-mazas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Mazas y Núcleos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-llantas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Llantas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-protector": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Protector de Llantas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-camaras": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Camaras"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-ejes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ejes y bloqueos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-partes-pequeñas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Partes Pequeñas Ruedas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-tapabarros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Tapabarros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-ruedas-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-grupo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Grupos de Transmisión"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-piñones": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Piñones"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-shifters": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Shifters"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-pata-cambio": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Pata de Cambio y Desviador"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-bielas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Bielas, Volantes y Coronas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-motor": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Motor"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-cadenas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Cadenas y Guías de Cadena"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-partes-pequeñas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Partes Pequeñas Transmisión"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-potenciometros": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Potenciometros"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-fundas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Fundas y Piolas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-transmision-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-frenos-frenos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Frenos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-frenos-discos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Discos y Pastillas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-frenos-partes-pequeñas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Partes Pequeñas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-frenos-kit": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Kit de Sangrado y Líquidos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-frenos-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-manubrio": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Manubrio"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-tee": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Tee"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-juegos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Juegos de Dirección"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-pedales": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Pedales"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-asientos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Asientos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-tubos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Tubos de Asiento y Retráctiles"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-puños": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Puños y Cintas de Manubrio"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-protector": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Protector de Mano"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-direccion-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-horquillas-horquillas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Horquillas"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-horquillas-shocks": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Shocks"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-horquillas-partes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Partes de Suspensiones"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-horquillas-ejes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ejes y bloqueos"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Componentes-horquillas-vertodo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ver Todo"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* END SUB MENU COMPONENTES */
+  /* SUB MENU ACCESORIOS */
+  "menu-item#Accesorios-escenciales-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-escenciales-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-mantenimiento-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-indoor-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Accesorios-nutricion-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* SUBMENU HOMBRE */
+  "menu-item#Hombre-montaña-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-montaña-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-ruta-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-triatlon-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Hombre-lyfestyle-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* SUBMENU MUJER */
+  "menu-item#Mujer-montaña-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-montaña-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-ruta-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-triatlon-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Mujer-lyfestyle-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* SUBMENU NIÑOS */
+  "menu-item#Niños-bicicletas-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-bicicletas-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-ropa-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-accesorios-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Niños-lyfestyle-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* SUBMENU DESTINOS */
+  "menu-item#Destinos-turismo-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-turismo-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-escuelas-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-bike-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-entrenamiento-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-1": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-4": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-5": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-6": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-7": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-8": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-9": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-10": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Destinos-seguros-item-11": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#footer-somos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Nosotros"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-telefono": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "tel:+56999999",
+        "text": "+ 569xxxxxxx"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-carreras": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Carreras"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-marcas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Marcas"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-ventas-grupales": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ventas Grupales"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-noticias": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Noticias"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-devoluciones": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Devoluciones"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-como-comprar": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Como comprar"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-email": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "mailto:contacto@montenbaik.com",
+        "text": "contacto@montenbaik.com"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-historial": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Historial de pedidos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-politicas-impuestos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Politicas de impuestos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-politicas-envios": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Politica de envíos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-preguntas-frecuentes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-politicas-cambios": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Política de cambios y devoluciones"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-generalidades": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Generalidades"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-informacion": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Información del sitio web"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-usuario": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Usuario"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-tarjeta-regalo": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Tarjetas de regalo"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-derechos-garantias": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Derechos y garantías"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  /* MOBILE */
+  "menu-item#Categorias-Noticias-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Noticias"
+      },
+      "blockClass": "categoria-header-cian-mobile"
+    }
+  },
+  "menu-item#Categorias-TV-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "TV"
+      },
+      "blockClass": "categoria-header-cian-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "BICICLETAS"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Componentes-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "COMPONENTES"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-mobile"
+    ]
+  },
+  "menu-item#Categorias-Accesorios-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "ACCESORIOS"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Accesorios-mobile"
+    ]
+  },
+  "menu-item#Categorias-Hombre-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "HOMBRE"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Hombre-mobile"
+    ]
+  },
+  "menu-item#Categorias-Mujer-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MUJER"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Mujer-mobile"
+    ]
+  },
+  "menu-item#Categorias-Ninos-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "NIÑOS"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ninos-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "DESTINOS"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-mobile"
+    ]
+  },
+  "menu-item#Categorias-Marcas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MARCAS"
+      },
+      "blockClass": "categoria-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ofertas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "OFERTAS"
+      },
+      "blockClass": "categoria-header-mobile"
+    }
+  },
+  /* SUB MENU ITEMS BICICLETAS MOBILE */
+  "menu-item#Categorias-Bicicletas-montaña-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Montaña"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-montaña-mobile"
+    ]
+  },
+  /* ITEMS BICICLETA MONTAÑA MOBILE */
+  "menu-item#Categorias-Bicicletas-montaña-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-montaña-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruta"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-ruta-mobile"
+    ]
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ruta-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Electricas"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-electricas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-electricas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Niños"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-ninos-mobile"
+    ]
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-ninos-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "BMX y Dirt"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-bmx-mobile"
+    ]
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-bmx-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Urbanas"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Bicicletas-urbanas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Bicicletas-urbanas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS BICICLETA MOBILE */
+  /* SUB MENU ITEMS COMPONENTES MOBILE */
+  "menu-item#Categorias-Componentes-ruedas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruedas, Neumáticos y partes"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-ruedas-mobile"
+    ]
+  },
+  /* ITEMS BICICLETA ruedas MOBILE */
+  "menu-item#Categorias-Componentes-ruedas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-ruedas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Transmisión y Partes"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-transmision-mobile"
+    ]
+  },
+  "menu-item#Categorias-Componentes-transmision-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-transmision-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Frenos y Partes"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-frenos-mobile"
+    ]
+  },
+  "menu-item#Categorias-Componentes-frenos-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-frenos-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Dirección, Asientos y Pedales"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-direccion-mobile"
+    ]
+  },
+  "menu-item#Categorias-Componentes-direccion-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-direccion-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Horquillas y Suspensiones"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Componentes-horquillas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Componentes-horquillas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS COMPONENTES MOBILE */
+  /* SUB MENU ITEMS ACCESORIOS MOBILE */
+  "menu-item#Categorias-Accesorios-esenciales-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Esenciales"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Accesorios-esenciales-mobile"
+    ]
+  },
+  /* ITEMS BICICLETA esenciales MOBILE */
+  "menu-item#Categorias-Accesorios-esenciales-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-esenciales-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Mantenimiento y Transporte"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Accesorios-mantenimiento-mobile"
+    ]
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-mantenimiento-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Indoor"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Accesorios-indoor-mobile"
+    ]
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-indoor-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Nutrición y Salud"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Accesorios-nutricion-mobile"
+    ]
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Accesorios-nutricion-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS ACCESORIOS MOBILE */
+  /* ITEMS HOMBRE MOBILE */
+  "menu-item#Categorias-Hombre-montana-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Montaña"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Hombre-montana-mobile"
+    ]
+  },
+  "menu-item#Categorias-Hombre-montana-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-montana-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruta"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Hombre-ruta-mobile"
+    ]
+  },
+  "menu-item#Categorias-Hombre-ruta-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-ruta-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Triatlón"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Hombre-triatlon-mobile"
+    ]
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-triatlon-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Lyfestyle"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Hombre-lyfestyle-mobile"
+    ]
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Hombre-lyfestyle-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS Hombre MOBILE */
+  /* ITEMS MUJER MOBILE */
+  "menu-item#Categorias-Mujer-montana-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Montaña"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Mujer-montana-mobile"
+    ]
+  },
+  "menu-item#Categorias-Mujer-montana-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-montana-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ruta"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Mujer-ruta-mobile"
+    ]
+  },
+  "menu-item#Categorias-Mujer-ruta-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-ruta-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Triatlón"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Mujer-triatlon-mobile"
+    ]
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-triatlon-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Lyfestyle"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Mujer-lyfestyle-mobile"
+    ]
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Mujer-lyfestyle-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS MUJER MOBILE */
+  /* ITEMS NIÑOS MOBILE */
+  "menu-item#Categorias-Ninos-bicicletas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Bicicletas para niños"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ninos-bicicletas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-bicicletas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Ropa y Calzado"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ninos-ropa-mobile"
+    ]
+  },
+  "menu-item#Categorias-Ninos-ropa-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-ropa-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Accesorios"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ninos-accesorios-mobile"
+    ]
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-accesorios-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Lyfestyle"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Ninos-lyfestyle-mobile"
+    ]
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Ninos-lyfestyle-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  /* END ITEMS NIÑOS MOBILE */
+  /* ITEMS DESTINOS MOBILE */
+  "menu-item#Categorias-Destinos-turismo-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Turismo"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-turismo-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-turismo-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-turismo-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Escuelas"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-escuelas-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-escuelas-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Bike Parks"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-bike-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-bike-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-bike-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Entrenamiento"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-entrenamiento-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-entrenamiento-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Seguros"
+      },
+      "blockClass": "sub-categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Destinos-seguros-mobile"
+    ]
+  },
+  "menu-item#Categorias-Destinos-seguros-item-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  },
+  "menu-item#Categorias-Destinos-seguros-item-11-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Item"
+      },
+      "blockClass": "item-header-mobile"
+    }
+  }
+  /* END ITEMS NIÑOS MOBILE */
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+.availabilityMessageText {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.productListUnavailableItemsMessage {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.productBrandName {
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+
+.productPriceContainer {
+    text-align: end;
+}
+
+.productName {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.quantitySelectorContainer--quantityMinicart {
+    max-width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.productPrice {
+    color: #000;
+    font-family: 'Poppins';
+}
+
+.inputContainer {
+    width: 55%!important;
+    padding: 0;
+}
+
+.inputContainer ::global(input) {
+    height: 20px;
+    width: 30px;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+.product-identifier {
+    color: #606060;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.product-identifier__separator {
+    margin-left: 6px;
+}
+
+.product-identifier__label::before {
+    content: "Código";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.product-identifier__label {
+    font-size: 0;
+}

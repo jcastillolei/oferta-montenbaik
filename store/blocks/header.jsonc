@@ -1,0 +1,250 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "rich-text#header-info",
+      "flex-layout.row#desktop",
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#categorias-nav"
+    ]
+  },
+  "rich-text#header-info": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "12 cuotas sin interes",
+      "blockClass": "info-header"
+    }
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header-main"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.row#right-header-login"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "spacer"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.svg",
+      "blockClass": "logo"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "LOGIN",
+      "showIconProfile": true,
+      "hasGoogleOneTap": true,
+      "hideIconLabel": true,
+      "optionsTitle": "Elije una opción para ingresar",
+      "iconProps": {
+        "viewBox": "0 0 50 50"
+      },
+      "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "maxWidth": 600,
+      "compactMode": false,
+      "blockClass": "search-desktop"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "responsive-layout.tablet#header", 
+      "responsive-layout.phone#header"
+    ]
+  },
+  "responsive-layout.tablet#header": {
+    "children": [
+      "rich-text#header-info",
+      "flex-layout.row#mobile",
+      "sticky-layout#mobile"
+    ]
+  },
+  "responsive-layout.phone#header": {
+    "children": [
+      "flex-layout.row#top-mobile",
+      "flex-layout.row#mobile",
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#search-mobile"
+    ],
+    "props": {
+      "blockClass": "sticky-mobile"
+    }
+  },
+  "flex-layout.row#top-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "top-header-mobile"
+    },
+    "children": [
+      "rich-text#top-mobile"
+    ]
+  },
+  "rich-text#top-mobile": {
+    "props": {
+      "text": "12 CUOTAS SIN INTERES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top-mobile"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo#mobile",
+      "flex-layout.row#header-login-mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo.svg",
+      "blockClass": "logo"
+    }
+  },
+  "flex-layout.row#header-login-mobile": {
+    "props": {
+      "blockClass": "header-login-mobile",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#right-header-login": {
+    "props": {
+      "blockClass": "row-menu-header",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#whatsapp-header",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "image#whatsapp-header": {
+    "props": {
+      "src": "/arquivos/icono-whatsapp-menu.png",
+      "link": {
+        "url": "tel:+33333333"
+      },
+      "maxWidth": 35,
+      "blockClass": "image-whatsapp"
+    }
+  },
+  "flex-layout.row#search-mobile": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "search-header-mobile"
+    },
+    "children": [
+      "drawer",
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "displayMode": "search-button",
+      "blockClass": "search-mobile"
+    }
+  },
+  "flex-layout.col#spacer-2": {
+    "props": {
+      "width": "small",
+      "blockClass": "spacer-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#Categorias-Bicicletas-mobile",
+      "menu-item#Categorias-Componentes-mobile",
+      "menu-item#Categorias-Accesorios-mobile",
+      "menu-item#Categorias-Hombre-mobile",
+      "menu-item#Categorias-Mujer-mobile",
+      "menu-item#Categorias-Ninos-mobile",
+      "menu-item#Categorias-Destinos-mobile",
+      "menu-item#Categorias-Marcas-mobile",
+      "menu-item#Categorias-Ofertas-mobile",
+      "menu-item#Categorias-Noticias-mobile",
+      "menu-item#Categorias-TV-mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-drawer"
+    }
+  },
+  "search-bar#mobile-drawer": {
+    "props": {
+      "displayMode": "search-button",
+      "blockClass": "search-mobile-drawer"
+    }
+  }
+}

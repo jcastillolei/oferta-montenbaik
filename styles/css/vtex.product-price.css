@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+.currencyContainer {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #606060;
+}
+
+.savings--porcentaje-categoria {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Helvetica";
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.installments--cuotas-producto {
+  color: #00000085;
+  font-family: "Helvetica";
+  font-size: 14px;
+}
+
+.currencyContainer--cuotas-producto {
+  font-size: 14px;
+  color: #00000085;
+  font-family: "Helvetica";
+}
+
+.sellerNameContainer--seller {
+  font-size: 14px;
+  color: #0000009e;
+}
+
+.sellingPriceValue .currencyContainer {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+  margin-right: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-lef-col) .sellingPriceValue .currencyContainer {
+  font-family: Helvetica;
+  font-weight: 400;
+  color: #000;
+  font-size: 27px;
+  margin-right: 5px;
+}

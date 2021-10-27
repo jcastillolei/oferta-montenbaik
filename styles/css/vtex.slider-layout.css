@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+.caretIcon--slider-home {
+  color: white;
+}
+
+.caretIcon--slider-home-mobile {
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 22px;
+}
+
+.sliderTrack--slider-home-marcas {
+  padding: 10px 0;
+}
+
+.sliderLayoutContainer--slider-home {
+  margin-top: -166px;
+  z-index: 1;
+}
+
+.caretIcon--slider-home {
+  width: 40px;
+  height: 40px;
+}
+
+.sliderArrows--slider-home {
+  margin-top: 110px;
+}
+
+.sliderRightArrow--slider-home {
+  padding-right: 50px;
+}
+
+.sliderLeftArrow--slider-home {
+  padding-left: 50px;
+}
+
+.paginationDot--slider-home,
+.paginationDot--slider-home-mobile {
+  background: transparent;
+  border: solid 1px #00aeef;
+}
+
+.sliderLayoutContainer--slider-home-marcas {
+  background: #e5e5e5;
+  margin-top: -5px;
+  padding-top: 4px;
+  padding-left: 25px;
+  padding-right: 35px;
+}
+
+.caretIcon--slider-home-marcas {
+  color: #209bbb;
+}
+
+.paginationDot--slider-home--isActive,
+.paginationDot--slider-home-mobile--isActive {
+  background: #00aeef;
+  transition: 0.3s;
+}
+
+.paginationDotsContainer--slider-home {
+  width: 100%;
+  bottom: 25px;
+}
+
+.sliderTrackContainer--slider-home-marcas {
+  width: 95%;
+  margin: auto;
+}
+
+/* MOBILE */
+.paginationDotsContainer--slider-home-mobile {
+  bottom: 20px;
+}
+
+.sliderLayoutContainer--slider-inspiracion-mobile {
+  margin: auto;
+  width: 90%;
+}
+
+.caretIcon--slider-inspiracion-mobile {
+  color: #fff;
+  width: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderTrack--slider-home-marcas {
+    padding: 5px 0px;
+  }
+
+  .sliderArrows--slider-home-marcas {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+  .sliderLayoutContainer--slider-home {
+    margin-top: 0;
+  }
+
+  .sliderArrows--slider-home {
+    margin-top: 0;
+  }
+}

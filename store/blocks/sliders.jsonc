@@ -1,0 +1,360 @@
+{
+  "slider-layout#home": {
+    "children": [
+      "image#slider-home-1",
+      "image#slider-home-2",
+      "image#slider-home-3",
+      "image#slider-home-4",
+      "image#slider-home-5"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1
+      },
+      "showPaginationDots": "always",
+      "fullWidth": true,
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-1": {
+    "props": {
+      "src": "https://dummyimage.com/1920x800/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-2": {
+    "props": {
+      "src": "https://dummyimage.com/1920x800/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-3": {
+    "props": {
+      "src": "https://dummyimage.com/1920x800/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-4": {
+    "props": {
+      "src": "https://dummyimage.com/1920x800/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "image#slider-home-5": {
+    "props": {
+      "src": "https://dummyimage.com/1920x800/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home"
+    }
+  },
+  "slider-layout#home-marcas": {
+    "children": [
+      "image#slider-home-marcas-1",
+      "image#slider-home-marcas-2",
+      "image#slider-home-marcas-3",
+      "image#slider-home-marcas-4",
+      "image#slider-home-marcas-5",
+      "image#slider-home-marcas-6",
+      "image#slider-home-marcas-7",
+      "image#slider-home-marcas-8",
+      "image#slider-home-marcas-9",
+      "image#slider-home-marcas-10",
+      "image#slider-home-marcas-11",
+      "image#slider-home-marcas-12",
+      "image#slider-home-marcas-13",
+      "image#slider-home-marcas-14",
+      "image#slider-home-marcas-15",
+      "image#slider-home-marcas-16",
+      "image#slider-home-marcas-17",
+      "image#slider-home-marcas-18",
+      "image#slider-home-marcas-19",
+      "image#slider-home-marcas-20"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "itemsPerPage": {
+        "desktop": 10,
+        "tablet": 6,
+        "phone": 3
+      },
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-1": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/c1e55c39-815f-4643-8881-be9bdac07a78___642fb4caf9bdc848c7c9ea7148e29635.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-2": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/e69ae144-f03a-4cc6-81f5-833856689349___e8ee31356a45b9fd1a5863d7cc8168c4.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-3": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/098dce19-2e74-41d8-93f0-cf5e2dc446bc___c1a9e7b8ba3776cdb36c6ae95efdc500.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-4": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/2ca9aa00-f182-4ab8-ad31-989d028f0cd9___af3f2217c8a450913ec759b1bb4cbbba.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-5": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/dece46a2-8623-4810-a315-a2f0010367b0___a769cf932db5a8a3bb8f65125e785976.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-6": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/ae5c6820-e3f4-49dd-8a58-560d64f181cf___3a1e53f2c1e581988714e1931e9f7de8.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-7": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/52350421-3fc9-446e-a430-0ef72ecad09d___84095a3f9c33c8ba50d8a05e8bf33c0e.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-8": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/4899a506-64b8-4630-8e88-d0af72543899___5d07a581392ec23007504bd1482a74e7.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-9": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/ce553429-a63c-4c33-af97-506891ef671c___0bbeced05064fb8388168df82d950c55.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-10": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/1df256b2-cfb6-437b-9ba2-a2deed8ce064___6f11b35a2adbf83489d7a4c20ca9f469.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-11": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/54c2cf22-02e8-44f4-ba4b-ce8299be2380___5106ec9af1b46a76abd3304b083ca268.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-12": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/443de6ff-1514-468d-9b51-b47efaa19639___569e3a35594057e59f3603f4844954e0.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-13": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/bdf5b347-4ace-44b7-838b-55e417a47473___2299116f1b1f2aa10b4b45c517d9e72a.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-14": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/f3f41b12-a21f-41de-b779-c42428c0576d___84d41b20c51bf61580416a7c34790545.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-15": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/78f95137-7675-477e-82cf-61c28646acbb___fdd1553efa7e49715d41de5d9e6f0e1c.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-16": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/4432a72c-6476-48e2-b657-f6b9673be755___15f5c437156cd537ca8e1b396d3144f2.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-17": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/94e4deed-6f88-4f8e-9dd6-8a0b943b801f___b5ae8cc95c961c54debd8951cf421e19.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-18": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/7c3d2039-799d-4673-b227-746694bbfb49___646a6337faa1358b113e80daf436dec8.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-19": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/7a1b1a7b-5d24-468e-a14d-b9fd161a582d___567d17d810e0549a9f97918b3b093812.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  "image#slider-home-marcas-20": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/d655ec90-3d79-49a0-9e34-76800d993a5f___d42a9e647317a84f62efdf3da5e2e868.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-marcas"
+    }
+  },
+  /* MOBILE */
+  "slider-layout#home-mobile": {
+    "children": [
+      "image#slider-home-mobile-1",
+      "image#slider-home-mobile-2",
+      "image#slider-home-mobile-3",
+      "image#slider-home-mobile-4",
+      "image#slider-home-mobile-5"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "blockClass": "slider-home-mobile"
+    }
+  },
+  "image#slider-home-mobile-1": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/64d64278-20a7-49fd-ba55-a2050004e10b___5496622a99bab8132c7688c944944873.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-mobile"
+    }
+  },
+  "image#slider-home-mobile-2": {
+    "props": {
+      "src": "https://montenbaikcl.vtexassets.com/assets/vtex.file-manager-graphql/images/90d6fb12-f27c-42da-9f3a-a82b44e3a779___ba0f1756e1f7fd0d021b9d4b2080cfe5.jpg",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-mobile"
+    }
+  },
+  "image#slider-home-mobile-3": {
+    "props": {
+      "src": "https://dummyimage.com/480x400/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-mobile"
+    }
+  },
+  "image#slider-home-mobile-4": {
+    "props": {
+      "src": "https://dummyimage.com/480x400/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-mobile"
+    }
+  },
+  "image#slider-home-mobile-5": {
+    "props": {
+      "src": "https://dummyimage.com/480x400/000/fff",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-home-mobile"
+    }
+  }
+}

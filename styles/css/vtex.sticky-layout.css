@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+/* MOBILE */
+.container--sticky-mobile {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.container--sticky-header {
+  z-index: 5;
+}
+
+.wrapper--sticky-header {
+  z-index: 3;
+}
+
+.wrapper--sticky-mobile {
+  border: unset;
+}

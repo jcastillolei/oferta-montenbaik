@@ -1,0 +1,37 @@
+.star {
+  color: #000;
+}
+
+.inlineContainer {
+  margin-left: 10px;
+}
+
+.inlineContainer {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.inlineContainer {
+  min-height: 23px;
+}
+
+.reviewsHeading {
+  font-size: 18px;
+  font-family: "Helvetica";
+  padding-bottom: 10px;
+}
+
+.loginLink {
+  color: #00aeef;
+  padding-left: 0;
+  text-decoration: unset;
+}
+
+.inlineContainer {
+  min-height: 23px;
+  margin-left: 10px;
+}
+
+.inlineContainer {
+  min-height: 23px;
+}

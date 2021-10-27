@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+.closeIconContainer {
+  justify-content: flex-end;
+}
+
+.closeIconButton {
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 35px !important;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 5px 5px 1px 5px;
+}
+
+.opened {
+  background: transparent;
+  width: 98% !important;
+  max-width: 400px !important;
+}
+
+.menuIcon {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+}
+
+.openIconContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.closeIcon {
+  color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+  .drawerContent {
+    min-height: 80%;
+  }
+}

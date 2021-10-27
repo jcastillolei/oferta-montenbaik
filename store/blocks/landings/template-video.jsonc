@@ -1,0 +1,94 @@
+{
+    "store.custom#landing-templateVideo": {
+        "blocks": [
+            "responsive-layout.desktop#templateVideo-landing",
+            "responsive-layout.mobile#templateVideo-landing"
+        ]
+    },
+    "responsive-layout.desktop#templateVideo-landing": {
+        "children": [
+            "image#logo-templateVideo",
+            "iframe#video-templateVideo-1",
+            "info-card#landing-templateVideo-1",
+            "info-card#landing-templateVideo-2",
+            "info-card#landing-templateVideo-3",
+            "image#banner-templateVideo-2",
+            "shelf#Landing-video-1",
+            "shelf#Landing-video-2"
+        ]
+    },
+    "image#logo-templateVideo": {
+        "props": {
+            "src": "/arquivos/huincha-templateVideo.png",
+            "blockClass": "logo-landing"
+        }
+    },
+    "iframe#video-templateVideo-1": {
+        "props": {
+            "src": "https://snapwidget.com/embed/945524",
+            "width": "100%",
+            "height": 400,
+            "blockClass": "video-landing"
+        }
+    },
+    "info-card#landing-templateVideo-1": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#landing-templateVideo-2": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#landing-templateVideo-3": {
+        "props": {
+            "id": "landing",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://dummyimage.com/600x300/000/fff",
+            "headline": "Lorem ipsum dolor",
+            "subhead": "sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliis nisl ut aliquip ex ea commodo con",
+            "callToActionText": "Ver Más",
+            "callToActionUrl": "#",
+            "blockClass": "landing",
+            "textAlignment": "left"
+        }
+    },
+    "image#banner-templateVideo-2": {
+        "props": {
+            "src": "https://dummyimage.com/1920x600/000/fff",
+            "blockClass": "banner-landing"
+        }
+    },
+    "responsive-layout.mobile#templateVideo-landing": {
+        "children": [
+            "image#logo-templateVideo",
+            "iframe#video-templateVideo-1",
+            "info-card#landing-templateVideo-1",
+            "info-card#landing-templateVideo-2",
+            "info-card#landing-templateVideo-3",
+            "image#banner-templateVideo-2",
+            "shelf#Landing-video-1",
+            "shelf#Landing-video-2"
+        ]
+    }
+}

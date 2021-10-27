@@ -1,0 +1,11 @@
+{
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#landing-specialized": {
+    "path": "/specialized"
+  },
+  "store.custom#enviame": {
+    "path": "/sigue-tu-pedido"
+  }
+}
