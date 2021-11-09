@@ -485,9 +485,9 @@
   text-transform: uppercase;
 }
 
-.skuSelectorSubcontainer--color {
+/* .skuSelectorSubcontainer--color {
   display: none;
-}
+} */
 
 .specificationsTablePropertyHeading--specifications-product-mobile, .specificationsTableSpecificationHeading--specifications-product-mobile {
   padding-left: 0;
