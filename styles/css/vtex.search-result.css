@@ -45,6 +45,19 @@
     font-size: 12px;
 }
 
+.filtersWrapper, .accordionFilter{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__container--title, .filterAccordionBreadcrumbs{
+    order: -2;
+}
+
+.filter__container--category-3, .accordionFilterContainer--sub-categoria{
+    order: -1;
+}
+
 .filterTitle {
     font-family: 'Helvetica';
     font-weight: 400;
