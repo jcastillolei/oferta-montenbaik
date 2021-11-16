@@ -1,0 +1,30 @@
+@use "../var/library" as l;
+
+.contentContainer--contenido-tab-descripcion {
+  max-width: 810px;
+  margin: auto;
+}
+
+.listContainer--lista-tabs-descripcion {
+  background: #80808030;
+
+  .listItem :global(.vtex-button) {
+    background: unset;
+    border: unset;
+
+    :global(.vtex-button__label) {
+      font-size: 18px;
+      padding: 10px 5px;
+      color: #000000d9;
+      font-family: "Helvetica";
+      text-transform: capitalize;
+    }
+  }
+}
+
+.listItemActive :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: "";
+  width: 10px;
+  margin-right: 5px;
+  border-bottom: solid 3px #00aeef;
+}

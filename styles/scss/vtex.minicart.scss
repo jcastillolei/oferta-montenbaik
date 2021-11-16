@@ -1,0 +1,36 @@
+@use "../var/library" as l;
+
+.minicartQuantityBadgeDefault {
+  background-color: l.$color-2;
+}
+
+.cartIcon {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.minicartTitle {
+  font-family: l.$font-1;
+  color: l.$color-6;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.minicartWrapperContainer :global(.vtex-button):hover {
+  background: unset;
+}
+
+.openIconContainer {
+  padding: 0;
+}
+
+.minicartCheckoutButton--buyCheckoutMinicart :global(.vtex-button__label) {
+  font-size: 0;
+
+  &::before {
+    font-size: 1rem;
+    content: "CONTINUAR COMPRA";
+  }
+}

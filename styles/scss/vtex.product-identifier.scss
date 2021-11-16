@@ -1,0 +1,22 @@
+@use "../var/library" as l;
+
+.product-identifier {
+  font-family: l.$font-3;
+  color: l.$color-4;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.product-identifier__separator {
+  margin-left: 0.375rem;
+}
+
+.product-identifier__label {
+  &::before {
+    content: "Código";
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  font-size: 0;
+}

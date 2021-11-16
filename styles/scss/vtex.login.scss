@@ -1,0 +1,25 @@
+@use "../var/library" as l;
+
+.profileIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.formTitle {
+  font-family: l.$font-1;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.container :global(.vtex-button):hover {
+  background: unset;
+}
+
+.profileIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.options :global(.vtex-button__label) {
+  color: l.$color-6;
+}

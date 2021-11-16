@@ -1,0 +1,27 @@
+@use "../var/library" as l;
+
+.productHighlightText--text-flag {
+  font-family: l.$font-3;
+  color: l.$color-6;
+  background-color: l.$color-5;
+  text-decoration: none;
+  padding: 2px 5px;
+  font-size: 0.75rem;
+  border: solid 1px;
+  width: fit-content;
+  position: relative;
+  bottom: -45px;
+  left: 20px;
+  top: 50%;
+  z-index: 5;
+}
+
+.productHighlightText--texto-highlight {
+  background-color: l.$color-5;
+  font-size: 0.875rem;
+  top: 48px;
+  left: 30px;
+  position: relative;
+  z-index: 3;
+  border: solid 1px;
+}

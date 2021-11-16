@@ -1,0 +1,41 @@
+@use "../var/library" as l;
+
+.closeIconContainer {
+    justify-content: flex-end;
+  }
+  
+  .closeIconButton {
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 35px !important;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px 5px 1px 5px;
+  }
+  
+  .opened {
+    background: transparent;
+    width: 98% !important;
+    max-width: 400px !important;
+  }
+  
+  .menuIcon {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+  }
+  
+  .openIconContainer {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .closeIcon {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 1080px) {
+    .drawerContent {
+      min-height: 80%;
+    }
+  }

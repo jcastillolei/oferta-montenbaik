@@ -1,0 +1,18 @@
+@use "../var/library" as l;
+
+/* MOBILE */
+.container--sticky-mobile {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.container--sticky-header {
+  z-index: 5;
+}
+
+.wrapper--sticky-header {
+  z-index: 3;
+}
+
+.wrapper--sticky-mobile {
+  border: unset;
+}

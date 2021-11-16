@@ -1,69 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 .trigger--trigger-footer {
-    background: transparent;
-    border: unset;
+  background: transparent;
+  border: unset;
 }
 
 .trigger--trigger-footer {
-    width: 100%;
-    border-bottom: solid 1px #606060;
-    border-top: solid 1px #606060;
-    padding: 5px 15px 5px 5px;
+  width: 100%;
+  border-bottom: solid 1px #606060;
+  border-top: solid 1px #606060;
+  padding: 5px 15px 5px 5px;
 }
 
 .content--contenido-footer--visible {
-    padding: 5px;
+  padding: 5px;
 }
 
 .trigger--trigger-institucional {
-    width: 25%;
-    height: fit-content;
-    max-width: 1280px;
-    background: #fff;
-    border-left: unset!important;
-    border-right: unset!important;
-    border-bottom: unset!important;
-    border: solid 2px #000;
+  width: 25%;
+  height: fit-content;
+  max-width: 1280px;
+  background: #fff;
+  border-left: unset !important;
+  border-right: unset !important;
+  border-bottom: unset !important;
+  border: solid 2px #000;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--col-contenedor-institucional):last-child .trigger--trigger-institucional {
-    border-bottom: solid 2px #000!important;
+  border-bottom: solid 2px #000 !important;
 }
 
 .trigger--trigger-institucional--visible {
-    background: #00AEEF;
-    color: #fff;
+  background: #00aeef;
+  color: #fff;
 }
 
 .content--contenido-institucional {
-    width: 100%;
-    display: block!important;
+  width: 100%;
+  display: block !important;
 }
 
 .content--contenido-institucional--visible {
-    visibility: visible;
-    height: auto;
+  visibility: visible;
+  height: auto;
 }
 
 .content--contenido-institucional--hidden {
-    visibility: hidden;
-    height: 0;
+  visibility: hidden;
+  height: 0;
 }
 
-@media screen and (max-width: 768px){
-    .trigger--trigger-institucional {
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
+  .trigger--trigger-institucional {
+    width: 100%;
+  }
 
-    .content--contenido-institucional {
-        display: none!important;
-    }
+  .content--contenido-institucional {
+    display: none !important;
+  }
 
-    .content--contenido-institucional--visible {
-        visibility: visible;
-        display: block!important;
-        height: auto;
-        margin-top: 30px;
-    }
+  .content--contenido-institucional--visible {
+    visibility: visible;
+    display: block !important;
+    height: auto;
+    margin-top: 30px;
+  }
 }

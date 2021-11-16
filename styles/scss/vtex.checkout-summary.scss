@@ -1,0 +1,19 @@
+@use "../var/library" as l;
+
+:global(.vtex-minicart-2-x-minicartSummary) {
+  font-family: l.$font-3;
+  font-weight: 400;
+  .summarySmallContent {
+    font-weight: 400;
+    $color-2: #00aeef;
+  }
+
+  .summarySmallDisclaimer {
+    font-size: 0;
+  }
+
+  .summarySmallDisclaimer::before {
+    font-size: 0.875rem;
+    content: "Gastos de envío calculados al finalizar la compra";
+  }
+}

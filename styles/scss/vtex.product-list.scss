@@ -1,0 +1,49 @@
+@use "../var/library" as l;
+
+.availabilityMessageText {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.productListUnavailableItemsMessage {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.productBrandName {
+  font-family: "Helvetica";
+  font-weight: 400;
+}
+
+.productPriceContainer {
+  text-align: end;
+}
+
+.productName {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.quantitySelectorContainer--quantityMinicart {
+  max-width: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.productPrice {
+  color: #000;
+  font-family: "Poppins";
+}
+
+.inputContainer {
+  width: 55% !important;
+  padding: 0;
+
+  ::global(input) {
+    height: 20px;
+    width: 30px;
+  }
+}

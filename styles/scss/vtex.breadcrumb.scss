@@ -1,0 +1,53 @@
+@use "../var/library" as l;
+
+.container {
+  font-family: l.$font-3;
+  font-size: 0.815rem;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+
+  .link {
+    color: l.$color-4;
+    
+    &:hover {
+      color: l.$color-2;
+    }
+  }
+
+  .homeIcon--breadcrumb {
+    width: 0;
+    display: none;
+  }
+
+  .homeLink--breadcrumb::before {
+    visibility: visible;
+    content: "Home";
+    margin: 0 0.15rem;
+  }
+
+  .homeLink--breadcrumb {
+    display: flex;
+    align-items: center;
+  }
+
+  .caretIcon--breadcrumb {
+    display: none;
+  }
+
+  .arrow--breadcrumb {
+    padding: 0;
+  }
+
+  .arrow--breadcrumb::before {
+    visibility: visible;
+    content: "/";
+    margin: 0 0.15rem;
+  }
+
+  .term--breadcrumb {
+    color: l.$color-6;
+    font-weight: bold;
+    margin: 0 0.15rem;
+  }
+}

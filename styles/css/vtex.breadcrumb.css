@@ -1,69 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-.term--breadcrumb {
-    color: #000;
-    font-weight: bold;
-    font-family: 'Helvetica';
-}
-
-.homeIcon--breadcrumb {
-    width: 0;
-    visibility: hidden;
-}
-
-.homeLink--breadcrumb::before {
-    visibility: visible;
-    content: "Home";
-    padding-right: 5px;
-}
-
-.caretIcon--breadcrumb {
-    visibility: hidden;
-}
-
-.arrow--breadcrumb::before {
-    visibility: visible;
-    content: "/";
-    margin-left: 3px;
-    margin-right: -5px;
-}
-
-.homeLink--breadcrumb {
-    align-items: center;
-    display: contents;
-}
-
-.arrow--breadcrumb {
-    padding: 0;
-}
-
-.arrow--breadcrumb:last-child .link--breadcrumb {
-    font-weight: bold;
-}
-
-.container--breadcrumb {
-    font-family: 'Helvetica';
-    font-size: 12px;
-}
-
-.arrow, .link {
-    color: #00000085;
-}
-
-.link:hover {
-    color: #00AEEF;
-}
-
-.link {
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 13px;
-}
-
 .container {
-    font-size: 13px;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    align-items: center;
-    display: flex;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.815rem;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+}
+.container .link {
+  color: #808080;
+}
+.container .link:hover {
+  color: #00aeef;
+}
+.container .homeIcon--breadcrumb {
+  width: 0;
+  display: none;
+}
+.container .homeLink--breadcrumb::before {
+  visibility: visible;
+  content: "Home";
+  margin: 0 0.15rem;
+}
+.container .homeLink--breadcrumb {
+  display: flex;
+  align-items: center;
+}
+.container .caretIcon--breadcrumb {
+  display: none;
+}
+.container .arrow--breadcrumb {
+  padding: 0;
+}
+.container .arrow--breadcrumb::before {
+  visibility: visible;
+  content: "/";
+  margin: 0 0.15rem;
+}
+.container .term--breadcrumb {
+  color: black;
+  font-weight: bold;
+  margin: 0 0.15rem;
 }
