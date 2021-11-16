@@ -1,0 +1,7 @@
+@use "../var/library" as l;
+
+.buttonText--product-buy-button {
+  font-family: l.$font-1;
+  font-weight: 700;
+  font-size: 0.75rem;
+}

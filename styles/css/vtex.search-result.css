@@ -1,216 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@charset "UTF-8";
 .searchResultContainer {
-    padding: 0;
+  padding: 0;
 }
 
 .notFound--layout {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .gallery {
-    padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 .galleryTitle--layout {
-    font-family: 'Helvetica';
-    font-weight: 600;
-    color: #808080;
-    font-size: 16px;
-    text-transform: uppercase;
-    max-width: 1280px;
-    width: 100%;
-    text-align: inherit;
-    margin: 40px auto;
-    cursor: pointer;
+  font-family: "Helvetica";
+  font-weight: 600;
+  color: #808080;
+  font-size: 16px;
+  text-transform: uppercase;
+  max-width: 1280px;
+  width: 100%;
+  text-align: inherit;
+  margin: 40px auto;
+  cursor: pointer;
 }
-
 .galleryTitle--layout::after {
-    content: "";
-    display: block;
-    width: 25px;
-    margin-top: 5px;
-    border-bottom: solid 3px #00AEEF;
+  content: "";
+  display: block;
+  width: 25px;
+  margin-top: 5px;
+  border-bottom: solid 3px #00aeef;
 }
 
 /* .skuSelectorSubcontainer--color {
-    display: none;
-} */
-
+      display: none;
+  } */
 .selectedCategoryName {
-    color: #00AEEF;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 12px;
+  color: #00aeef;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 12px;
 }
 
-.filtersWrapper, .accordionFilter{
-    display: flex;
-    flex-direction: column;
+.filtersWrapper,
+.accordionFilter {
+  display: flex;
+  flex-direction: column;
 }
 
-.filter__container--title, .filterAccordionBreadcrumbs{
-    order: -2;
+.filter__container--title,
+.filterAccordionBreadcrumbs {
+  order: -2;
 }
 
-.filter__container--category-3, .accordionFilterContainer--sub-categoria{
-    order: -1;
+.filter__container--category-3,
+.accordionFilterContainer--sub-categoria {
+  order: -1;
 }
 
 .filterTitle {
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 12px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .categoryItemName {
-    font-family: 'Helvetica';
-    font-weight: 600;
-    font-size: 14px;
+  font-family: "Helvetica";
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .orderByButton {
-    padding: 5px 5px;
-    border-radius: 3px;
+  padding: 5px 5px;
+  border-radius: 3px;
 }
 
 .orderByOptionItem {
-    font-size: 12px;
-    font-family: 'Helvetica';
+  font-size: 12px;
+  font-family: "Helvetica";
 }
 
 .orderByDropdown {
-    padding: 0;
+  padding: 0;
 }
 
 .orderBy--layout {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .filterPopupTitle {
-    font-size: 12px;
-    font-family: 'Helvetica';
+  font-size: 12px;
+  font-family: "Helvetica";
 }
 
 .filterMessage {
-    font-family: 'Helvetica';
-    font-weight: 700;
-    font-size: 18px;
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .totalProducts--layout {
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 12px;
-    padding: 10px 5px;
-}
-
-.filter__container--c .filter .filterTitle::before {
-    font-size: 12px;
-    content: "Categorías";
-    font-weight: bold;
-    color: #00000085;
-}
-
-.filter__container--c .filter .filterTitle:hover::before {  
-    color: #000;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 5px;
 }
 
 .filter__container--c .filter .filterTitle {
-    font-size: 0;
+  font-size: 0;
+}
+.filter__container--c .filter .filterTitle::before {
+  font-size: 12px;
+  content: "Categorías";
+  font-weight: bold;
+  color: #00000085;
+}
+.filter__container--c .filter .filterTitle:hover::before {
+  color: #000;
 }
 
 .categoriesContainer .categoryParent .categoryItemName {
-    display: none;
+  display: none;
 }
 
 .filterPopupTitle {
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 14px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .categoryItemChildren {
-    font-family: 'Helvetica';
-    font-size: 12px;
-    color: #00000085;
+  font-family: "Helvetica";
+  font-size: 12px;
+  color: #00000085;
 }
-
 .categoryItemChildren:hover {
-    color: #000;
+  color: #000;
 }
 
 .caretIcon {
-    width: 10px;
-    height: 10px;
-    color: #000;
+  width: 10px;
+  height: 10px;
+  color: #000;
 }
 
 .filterItem :global(.vtex-checkbox__box-wrapper) :global(.vtex-checkbox__box) {
-    border: solid 1px;
-    border-radius: 0px;
+  border: solid 1px;
+  border-radius: 0px;
 }
-
 .filterItem :global(.vtex-checkbox__line-container) {
-    align-items: center;
+  align-items: center;
 }
-
 .filterItem :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
-    font-size: 12px;
-    color: #00000095;
+  font-size: 12px;
+  color: #00000095;
 }
 
 .selectedCategoryIcon {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .buttonShowMore--show-more {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .filterTemplateOverflow {
-    width: 95%;
+  width: 95%;
 }
 
 .filter__container--selectedFilters {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .galleryItem {
-        flex-basis: 50%!important;
-        max-width: 50%!important;
-    }
+  .galleryItem {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
 
-    .gallery {
-        display: flex;
-        margin: auto;
-        justify-content: space-evenly;
-        padding-top: 40px;
-        padding-left: 0;
-    }
+  .gallery {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-left: 0;
+  }
 
-    .galleryTitle--layout {
-        font-size: 25px;
-        width: 90%;
-    }
+  .galleryTitle--layout {
+    font-size: 25px;
+    width: 90%;
+  }
 
-    .totalProducts--layout {
-        border: unset;
-        width: 100%;
-    }
+  .totalProducts--layout {
+    border: unset;
+    width: 100%;
+  }
 }
-
 @media screen and (max-width: 1080px) and (min-width: 768px) {
-    .galleryTitle--layout {
-        max-width: 95%;
-    }
+  .galleryTitle--layout {
+    max-width: 95%;
+  }
 
-    .gallery {
-        padding-left: 0;
-        width: 95%;
-        margin: auto;
-    }
+  .gallery {
+    padding-left: 0;
+    width: 95%;
+    margin: auto;
+  }
 }

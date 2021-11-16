@@ -1,26 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
-.summarySmallContent {
-  font-family: "Helvetica";
+@charset "UTF-8";
+:global(.vtex-minicart-2-x-minicartSummary) {
+  font-family: "Helvetica", sans-serif;
   font-weight: 400;
 }
-
-.price {
-  color: #000;
-}
-
-.summarySmallDisclaimer {
-  font-family: "Helvetica";
+:global(.vtex-minicart-2-x-minicartSummary) .summarySmallContent {
   font-weight: 400;
+}
+:global(.vtex-minicart-2-x-minicartSummary) .summarySmallDisclaimer {
   font-size: 0;
 }
-
-.summarySmallDisclaimer::before {
-  font-size: 14px;
+:global(.vtex-minicart-2-x-minicartSummary) .summarySmallDisclaimer::before {
+  font-size: 0.875rem;
   content: "Gastos de envío calculados al finalizar la compra";
-}
-
-.summaryItemLabel {
-  font-family: "Helvetica";
-  font-weight: 400;
 }

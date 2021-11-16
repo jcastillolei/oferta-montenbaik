@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
-@import url("https://db.onlinewebfonts.com/c/9da41c570d5a221cb2486d78769a076d?family=Neue+Helvetica");
 /* HEADER */
 .styledLinkIcon--categoria-header {
   margin-left: 7px;
@@ -13,7 +10,6 @@
   font-size: 15px;
   text-transform: capitalize;
 }
-
 .styledLinkContent--categoria-header:hover {
   font-weight: bold;
 }
@@ -41,7 +37,6 @@
   font-size: 15px;
   text-transform: uppercase;
 }
-
 .styledLinkContent--categoria-header-right:hover {
   color: #fff !important;
 }
@@ -266,7 +261,7 @@
   font-family: "Helvetica";
   font-weight: 400;
   align-items: center;
-  color: #00AEEF;
+  color: #00aeef;
   text-transform: uppercase;
 }
 
@@ -308,8 +303,7 @@
   color: #00aeef;
 }
 
-.submenuAccordion--submenu-2-header-mobile,
-.submenuAccordion--submenu-header-mobile {
+.submenuAccordion--submenu-2-header-mobile, .submenuAccordion--submenu-header-mobile {
   display: block;
 }
 
@@ -336,7 +330,6 @@
     height: 30px;
   }
 }
-
 @media screen and (max-width: 1080px) and (min-width: 768px) {
   .styledLinkContainer--categoria-header {
     margin: 0 1rem 0 1rem;
@@ -346,7 +339,6 @@
     max-width: 98%;
   }
 }
-
 @media screen and (max-width: 1080px) {
   .menuContainerNav--menu-drawer {
     max-height: 80%;

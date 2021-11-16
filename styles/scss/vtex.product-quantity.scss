@@ -1,0 +1,20 @@
+@use "../var/library" as l;
+
+.quantitySelectorTitle--product-qty {
+  display: none;
+}
+
+.quantitySelectorStepper--product-qty {
+  margin-right: 10px;
+}
+
+.quantitySelectorContainer--product-qty {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .quantitySelectorStepper--product-qty {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

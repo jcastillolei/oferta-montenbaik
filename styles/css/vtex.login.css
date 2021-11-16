@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 .profileIcon {
-  color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .formTitle {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .container :global(.vtex-button):hover {
@@ -22,5 +19,5 @@
 }
 
 .options :global(.vtex-button__label) {
-  color: #000;
+  color: black;
 }

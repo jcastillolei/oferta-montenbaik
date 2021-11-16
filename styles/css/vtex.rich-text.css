@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
-
 .link:hover {
   color: #00aeef;
 }
@@ -315,8 +312,7 @@
   border-right: solid 1px #000;
 }
 
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child
-  .container--link-home {
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child .container--link-home {
   border-right: unset;
 }
 
@@ -336,9 +332,6 @@
 
 .paragraph--footer-newsletter-text {
   margin: 0;
-}
-
-.paragraph--footer-newsletter-text {
   font-family: "Helvetica";
   font-weight: 400;
   color: #606060;
@@ -369,9 +362,6 @@
 
 .paragraph--titulo-newsletter {
   margin: 0;
-}
-
-.paragraph--titulo-newsletter {
   font-size: 18px;
   color: #fff;
   text-transform: uppercase;
@@ -543,8 +533,14 @@
   line-height: 30px;
   margin-top: 10px;
 }
+.paragraph--titulo-form::after {
+  display: block;
+  width: 50px;
+  border-bottom: 3px solid #00aeef;
+  content: "";
+  margin-top: 10px;
+}
 
-.paragraph--titulo-form::after,
 .paragraph--titulo-servicios::after,
 .paragraph--titulo-form-servicios-0::after,
 .headingLevel4--texto-info-servicios-institucional::after {
@@ -601,22 +597,26 @@
 
 @media screen and (max-width: 768px) {
   .container--titulo-form-servicios,
-  .container--titulo-form-servicios-0 {
+.container--titulo-form-servicios-0 {
     padding: 0 20px 20px 20px;
   }
+
   .wrapper--texto-tiendas {
-    width: 90%!important;
+    width: 90% !important;
     margin: auto;
   }
+
   .container--titulo-elemento-servicios-institucional,
-  .paragraph--texto-servicios-institucional {
+.paragraph--texto-servicios-institucional {
     width: 95%;
     margin: auto;
   }
+
   .container--boton-spaceplanner-institucional {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
   .paragraph--cinta-home {
     font-weight: bold;
     text-transform: uppercase;
@@ -624,33 +624,41 @@
     color: #000;
     margin: 10px 0;
   }
+
   .paragraph--titulo-newsletter {
     font-size: 15px;
   }
+
   .strong--titulo-newsletter {
     font-size: 35px;
   }
+
   .paragraph--titulo-footer-medios {
     margin-left: 10px;
   }
+
   .paragraph--footer-copy {
     font-size: 12px;
   }
+
   .container--footer-copy {
     display: flex;
     justify-content: center;
   }
-  .container--titulo-institucional, .container--texto-servicios-institucional {
-    max-width: 90%!important;
+
+  .container--titulo-institucional,
+.container--texto-servicios-institucional {
+    max-width: 90% !important;
   }
+
   .paragraph--titulo-rrss {
     font-size: 16px;
   }
+
   .container--titulo-shelf {
     padding: 5px 20px;
   }
 }
-
 .container--blog-categorias {
   justify-content: center;
 }
@@ -703,7 +711,6 @@
   font-family: "Poppins";
   font-size: 16px;
 }
-
 .paragraph--titulo-elemento-servicios-institucional::after {
   display: block;
   width: 25px;
@@ -749,16 +756,13 @@
   font-weight: 600;
 }
 
-.wrapper--texto-elemento-institucional-titulo
-  .paragraph--texto-elemento-institucional {
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional {
   font-weight: 600;
   font-family: "Poppins";
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-.wrapper--texto-elemento-institucional-titulo
-  .paragraph--texto-elemento-institucional::after {
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional::after {
   content: "";
   display: block;
   width: 25px;
@@ -774,7 +778,6 @@
   font-family: "Poppins";
   margin-right: 15px;
 }
-
 .link--boton-elemento-presupuesto:hover {
   background: #fff;
   border: solid 1px #00aeef;
@@ -797,7 +800,6 @@
   font-size: 16px;
   color: #000;
 }
-
 .paragraph--titulo-tiendas::after {
   display: block;
   width: 25px;
@@ -898,7 +900,6 @@
     margin-bottom: 20px;
   }
 }
-
 .paragraph--texto-mantencion-tecnico {
   margin: 0;
 }
@@ -909,7 +910,6 @@
   font-weight: bold;
   color: #000;
 }
-
 .paragraph--titulo-mantencion-tecnico::after {
   display: block;
   width: 25px;
@@ -958,7 +958,6 @@
   color: #000;
   margin-top: 0;
 }
-
 .headingLevel3--institucional-texto::after {
   display: block;
   width: 25px;
@@ -966,8 +965,7 @@
   content: "";
 }
 
-:global(.vtex-disclosure-layout-1-x-trigger--trigger-institucional--visible)
-  .paragraph--titulo-institucional-menu {
+:global(.vtex-disclosure-layout-1-x-trigger--trigger-institucional--visible) .paragraph--titulo-institucional-menu {
   color: #fff;
 }
 
