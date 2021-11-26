@@ -441,6 +441,7 @@
   "flex-layout.col#right-mobile": {
     "children": [
       "flex-layout.row#Precio",
+      "product-price-savings",
       "sku-selector#mobile",
       "product-quantity",
       "add-to-cart-button#product",
@@ -468,7 +469,7 @@
   },
   "product-price#product-mobile": {
     "props": {
-      "showSavings": false,
+      "showSavings": true,
       "showListPrice": true,
       "showInstallments": false,
       "blockClass": "product-price"

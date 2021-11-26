@@ -15,6 +15,12 @@
   margin-bottom: 4px;
 }
 
+@media (max-width:991px) {
+  .savings--porcentaje-categoria {
+    margin-left: 0px;
+  }
+}
+
 .installments--cuotas-producto {
   color: #00000085;
   font-family: "Helvetica";
