@@ -15,9 +15,9 @@
   margin-bottom: 4px;
 }
 
-@media (max-width:991px) {
-  .savings--porcentaje-categoria {
-    margin-left: 0px;
+@media (max-width: 991px) {
+  :global(.vtex-flex-layout-0-x-flexCol--product-lef-col-mobile) .savings--porcentaje-categoria{
+      margin-left: 0px;
   }
 }
 
