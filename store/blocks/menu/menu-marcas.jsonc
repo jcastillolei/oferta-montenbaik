@@ -9,7 +9,7 @@
           "blockClass": "categoria-header"
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#marcas"
+            //"vtex.menu@2.x:submenu#marcas"
         ]
     },
     "vtex.menu@2.x:submenu#marcas": {
