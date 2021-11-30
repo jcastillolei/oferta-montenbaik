@@ -9,9 +9,9 @@
           "blockClass": "categoria-header"
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#marcas"
+            //"vtex.menu@2.x:submenu#marcas"
         ]
-    },
+    }/*,
     "vtex.menu@2.x:submenu#marcas": {
         "children": [
             //"flex-layout.row#submenu-marcas"
@@ -96,7 +96,7 @@
     "flex-layout.col#submenu-marca-imagen": {
         "children": [
             "image#sub-menu-marca",
-            "rich-text#menu-imagen-marca"
+            "rich-text"
         ],
         "props": {
             "blockClass": "col-submenu-marca",
@@ -122,7 +122,15 @@
                 "url": "#"
             }
         }
-    }
+    },
+    "richText": {
+        "$ref": "#/definitions/text",
+        "format": "RichText",
+        "title": "admin/native-types.richText",
+        "type": "string",
+        "examples": ["store/native-types.richText"]
+    }*/
+
       
 
 }
