@@ -1,0 +1,128 @@
+{
+    "menu-item#Categorias-Marcas": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "Marcas"
+          },
+          "blockClass": "categoria-header"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#marcas"
+        ]
+    },
+    "vtex.menu@2.x:submenu#marcas": {
+        "children": [
+            //"flex-layout.row#submenu-marcas"
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen",
+            "flex-layout.col#submenu-marca-imagen"
+        ],
+        "props": {
+            "blockClass": "submenu-header"
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen": {
+        "children": [
+            "image#sub-menu-marca",
+            "rich-text#menu-imagen-marca"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true           
+        }
+    },
+    "image#sub-menu-marca": {
+        "props": {
+            "src": "/arquivos/bikeprotekt.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Bianchi",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "#"
+            }
+        }
+    }
+      
+
+}

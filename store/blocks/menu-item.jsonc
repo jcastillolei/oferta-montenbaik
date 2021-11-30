@@ -48,7 +48,7 @@
       "vtex.menu@2.x:submenu#Accesorios"
     ]
   },
-  "menu-item#Categorias-Marcas": {
+  /*"menu-item#Categorias-Marcas": {
     "props": {
       "type": "custom",
       "itemProps": {
@@ -57,7 +57,7 @@
       },
       "blockClass": "categoria-header"
     }
-  },
+  },*/
   "menu-item#Categorias-Hombre": {
     "props": {
       "type": "custom",

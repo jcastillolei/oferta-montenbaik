@@ -72,6 +72,11 @@
   min-width: 120px;
 }
 
+.flexRowContent--row-submenu-marca {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .flexRowContent--search-header-mobile {
   display: flex;
   justify-content: space-evenly;
@@ -90,6 +95,10 @@
   display: flex;
   justify-content: center;
   margin: 20px 0;
+}
+
+.flexCol--col-submenu-marca {
+  width: 10% !important;
 }
 
 .flexRow--flex-row-inspiracion {
