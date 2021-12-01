@@ -103,6 +103,15 @@
 
 .flexCol--col-submenu-marca{
   width: 10% !important;
+  margin-bottom: 1%;
+
+  & :global(.vtex-store-components-3-x-imageElement--imagen-menu){
+    width: 70%;
+  }
+
+  & :global(.vtex-rich-text-0-x-paragraph--texto-submenu-imagen){
+    text-transform: capitalize;
+  }
 }
 
 .flexRow--flex-row-inspiracion {

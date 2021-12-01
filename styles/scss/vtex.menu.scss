@@ -115,6 +115,16 @@
   overflow: auto;
 }
 
+.submenu--submenu-header::-webkit-scrollbar{
+  background:#fdfdfd;
+  width:10px;
+}
+
+.submenu--submenu-header::-webkit-scrollbar-thumb{
+  background:#ece8e8;
+  border-radius:4px;
+}
+
 .styledLinkContainer--item-submenu {
   margin-left: 12px;
   margin-right: 12px;
