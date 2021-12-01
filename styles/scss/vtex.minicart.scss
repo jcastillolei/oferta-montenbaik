@@ -1,5 +1,9 @@
 @use "../var/library" as l;
 
+.drawer{
+  z-index: 10000000000;
+}
+
 .minicartQuantityBadgeDefault {
   background-color: l.$color-2;
 }
