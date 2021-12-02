@@ -13,7 +13,7 @@
 }
 
 .galleryTitle--layout {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: #808080;
   font-size: 16px;
@@ -37,7 +37,7 @@
   } */
 .selectedCategoryName {
   color: #00aeef;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
@@ -59,13 +59,13 @@
 }
 
 .filterTitle {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
 
 .categoryItemName {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
@@ -77,7 +77,7 @@
 
 .orderByOptionItem {
   font-size: 12px;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
 }
 
 .orderByDropdown {
@@ -91,17 +91,17 @@
 
 .filterPopupTitle {
   font-size: 12px;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
 }
 
 .filterMessage {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
 
 .totalProducts--layout {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   padding: 10px 5px;
@@ -125,13 +125,13 @@
 }
 
 .filterPopupTitle {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
 .categoryItemChildren {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   color: #00000085;
 }

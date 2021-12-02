@@ -17,7 +17,7 @@
   font-size: 12px;
   color: white;
   font-weight: 400;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
 }
 
 .paragraph--texto-submenu-imagen {
@@ -48,7 +48,7 @@
 }
 
 .paragraph--contacto-top-texto {
-  font-family: "Helvetica" !important;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: 700 !important;
   font-size: 13px !important;
   color: white;
@@ -76,12 +76,12 @@
 .paragraph--visualizador-top {
   font-size: 9px;
   color: white;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
 }
 
 .paragraph {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
 }
@@ -89,7 +89,7 @@
 .link--visualizador-top {
   font-size: 9px;
   color: white;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .paragraph--titulo-menu {
-  font-family: "Helvetica Light";
+  font-family: l.$font-3;
   font-weight: bold;
   border-bottom: solid 2px #00aeef;
   margin: 0 0 5px;
@@ -108,7 +108,7 @@
 
 .paragraph--titulo-informativo-mobile {
   color: black;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
@@ -131,7 +131,7 @@
 .paragraph--info-2,
 .paragraph--info-3,
 .paragraph--info-4 {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 700;
   font-size: 13px;
   margin: 0;
@@ -152,7 +152,7 @@
 .paragraph--info-2-mobile,
 .paragraph--info-3-mobile,
 .paragraph--info-4-mobile {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 900;
   font-size: 11px;
   text-align: initial;
@@ -176,7 +176,7 @@
 }
 
 .paragraph--info {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
 }
@@ -263,7 +263,7 @@
 }
 
 .paragraph--titulo-sale {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
   max-width: 1280px;
@@ -274,7 +274,7 @@
 .link--sale-ver-mas {
   text-decoration: underline;
   color: black;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 17px;
 }
@@ -338,7 +338,7 @@
 
 .paragraph--footer-newsletter-text {
   margin: 0;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   color: #606060;
   font-size: 15px;
@@ -347,7 +347,7 @@
 .paragraph--titulo-footer {
   margin-left: 10px;
   color: white;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
@@ -383,7 +383,7 @@
 
 .link--footer-contacto {
   color: #dad9d9;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 10px;
   margin-left: 8px;
@@ -395,7 +395,7 @@
 }
 
 .paragraph--titulo-informativo {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 700;
   color: black;
   margin-bottom: 0;
@@ -404,7 +404,7 @@
 }
 
 .paragraph--texto-informativo {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 12px;
 }
@@ -426,7 +426,7 @@
 .paragraph--titulo-footer-partner,
 .paragraph--titulo-footer-medios {
   color: white;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
@@ -456,7 +456,7 @@
 }
 
 .paragraph--footer-newsletter-text-mobile {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -489,14 +489,14 @@
 /* MODAL */
 
 .strong--glosario-titulo {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
 }
 
 .paragraph--glosario-titulo {
   margin: 3px;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-size: 13px;
 }
 
@@ -741,7 +741,7 @@
 .paragraph--texto-elemento-institucional {
   margin-bottom: 0;
   font-size: 16px;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   margin-top: 0;
 }
 
@@ -971,7 +971,7 @@
 
 .headingLevel3--institucional-texto {
   text-transform: uppercase;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-size: 20px;
   color: #000;
   margin-top: 0;

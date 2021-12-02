@@ -1,17 +1,17 @@
 .availabilityMessageText {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
 }
 
 .productListUnavailableItemsMessage {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
 .productBrandName {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .productName {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }

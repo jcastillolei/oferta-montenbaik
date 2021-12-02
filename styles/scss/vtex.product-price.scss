@@ -10,7 +10,7 @@
   color: red;
   font-weight: bold;
   font-size: 14px;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   margin-left: 10px;
   margin-bottom: 4px;
 }
@@ -23,14 +23,14 @@
 
 .installments--cuotas-producto {
   color: #00000085;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-size: 14px;
 }
 
 .currencyContainer--cuotas-producto {
   font-size: 14px;
   color: #00000085;
-  font-family: "Helvetica";
+  font-family: l.$font-3;
 }
 
 .sellerNameContainer--seller {
@@ -49,7 +49,7 @@
 :global(.vtex-flex-layout-0-x-flexColChild--product-lef-col)
   .sellingPriceValue
   .currencyContainer {
-  font-family: Helvetica;
+  font-family: l.$font-3;
   font-weight: 400;
   color: #000;
   font-size: 27px;

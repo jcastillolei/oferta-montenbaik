@@ -1,19 +1,19 @@
 @use "../var/library" as l;
 
 .availabilityMessageText {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 13px;
 }
 
 .productListUnavailableItemsMessage {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
 }
 
 .productBrandName {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .productName {
-  font-family: "Helvetica";
+  font-family: l.$font-3;
   font-weight: 400;
   font-size: 14px;
 }

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :global(.vtex-minicart-2-x-minicartSummary) {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 :global(.vtex-minicart-2-x-minicartSummary) .summarySmallContent {

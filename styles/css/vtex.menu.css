@@ -5,7 +5,7 @@
 
 .styledLinkContent--categoria-header {
   color: #ffffff;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   text-transform: capitalize;
@@ -15,7 +15,7 @@
 }
 
 .styledLinkContent--header-whatsapp {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 
@@ -32,7 +32,7 @@
 
 .styledLinkContent--categoria-header-right {
   color: #00aeef;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
@@ -47,7 +47,7 @@
 
 .styledLinkContent--footer-item {
   color: #dcdcdc;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -88,7 +88,7 @@
 }
 
 .styledLinkContent--item-submenu-ver-todo {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
@@ -168,7 +168,7 @@
 }
 
 .styledLinkContent--item-submenu {
-  font-family: "Helvetica Light";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #00000070;
   font-size: 14px;
@@ -272,7 +272,7 @@
 }
 
 .styledLinkContent--categoria-header-cian-mobile {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   align-items: center;
   color: #00aeef;
@@ -288,7 +288,7 @@
 }
 
 .styledLinkContent--categoria-header-mobile {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   align-items: center;
   color: #fff;
