@@ -327,8 +327,8 @@
   },
   "flex-layout.row#footer-logos-empresa": {
     "children": [
-      "image#vtex",
-      "image#ko-logo"
+      "image#vtex"
+      //"image#ko-logo"
     ],
     "props": {
       "blockClass": "footer-empresa",
