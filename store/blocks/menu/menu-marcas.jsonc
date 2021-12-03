@@ -15,7 +15,7 @@
     "vtex.menu@2.x:submenu#marcas": {
         "children": [
             //"flex-layout.row#submenu-marcas"
-            "flex-layout.col#submenu-marca-imagen-1",
+            //"flex-layout.col#submenu-marca-imagen-1",
             "flex-layout.col#submenu-marca-imagen-2",
             "flex-layout.col#submenu-marca-imagen-3",
             "flex-layout.col#submenu-marca-imagen-4",
