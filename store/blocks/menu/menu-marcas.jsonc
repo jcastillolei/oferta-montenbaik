@@ -81,10 +81,20 @@
             "flex-layout.col#submenu-marca-imagen-64",
             "flex-layout.col#submenu-marca-imagen-65",
             "flex-layout.col#submenu-marca-imagen-66",
-            "flex-layout.col#submenu-marca-imagen-67"/*,
+            "flex-layout.col#submenu-marca-imagen-67",
             "flex-layout.col#submenu-marca-imagen-68",
             "flex-layout.col#submenu-marca-imagen-69",
-            "flex-layout.col#submenu-marca-imagen-70"*/
+            "flex-layout.col#submenu-marca-imagen-70",
+            "flex-layout.col#submenu-marca-imagen-71",
+            "flex-layout.col#submenu-marca-imagen-72",
+            "flex-layout.col#submenu-marca-imagen-73",
+            "flex-layout.col#submenu-marca-imagen-74",
+            "flex-layout.col#submenu-marca-imagen-75",
+            "flex-layout.col#submenu-marca-imagen-76",
+            "flex-layout.col#submenu-marca-imagen-77",
+            "flex-layout.col#submenu-marca-imagen-78",
+            "flex-layout.col#submenu-marca-imagen-79",
+            "flex-layout.col#submenu-marca-imagen-80"
         ],
         "props": {
             "blockClass": "submenu-header"
@@ -2099,6 +2109,396 @@
                 "url": "/yerka-bikes"
             }
         }
-    }   
+    },
+    "flex-layout.col#submenu-marca-imagen-68": {
+        "children": [
+            "image#sub-menu-marca-68",
+            "rich-text#menu-imagen-marca-68"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-68": {
+        "props": {
+            "src": "/arquivos/bicycle-line.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/bicycle-line"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-68": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Bicycle line",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/bicycle-line"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-69": {
+        "children": [
+            "image#sub-menu-marca-69",
+            "rich-text#menu-imagen-marca-69"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-69": {
+        "props": {
+            "src": "/arquivos/evoc.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/evoc"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-69": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Evoc",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/evoc"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-70": {
+        "children": [
+            "image#sub-menu-marca-70",
+            "rich-text#menu-imagen-marca-70"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-70": {
+        "props": {
+            "src": "/arquivos/fasthouse.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/fasthouse"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-70": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Fasthouse",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/fasthouse"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-71": {
+        "children": [
+            "image#sub-menu-marca-71",
+            "rich-text#menu-imagen-marca-71"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-71": {
+        "props": {
+            "src": "/arquivos/g-form.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/g-form"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-71": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "G-form",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/g-form"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-72": {
+        "children": [
+            "image#sub-menu-marca-72",
+            "rich-text#menu-imagen-marca-72"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-72": {
+        "props": {
+            "src": "/arquivos/giant.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/giant"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-72": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Giant",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/giant"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-73": {
+        "children": [
+            "image#sub-menu-marca-73",
+            "rich-text#menu-imagen-marca-73"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-73": {
+        "props": {
+            "src": "/arquivos/ixs.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/ixs"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-73": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Ixs",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/ixs"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-74": {
+        "children": [
+            "image#sub-menu-marca-74",
+            "rich-text#menu-imagen-marca-74"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-74": {
+        "props": {
+            "src": "/arquivos/michelin.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/michelin"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-74": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Michelin",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/michelin"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-75": {
+        "children": [
+            "image#sub-menu-marca-75",
+            "rich-text#menu-imagen-marca-75"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-75": {
+        "props": {
+            "src": "/arquivos/renthal.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/renthal"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-75": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Renthal",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/renthal"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-76": {
+        "children": [
+            "image#sub-menu-marca-76",
+            "rich-text#menu-imagen-marca-76"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-76": {
+        "props": {
+            "src": "/arquivos/salice.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/salice"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-76": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Salice",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/salice"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-77": {
+        "children": [
+            "image#sub-menu-marca-77",
+            "rich-text#menu-imagen-marca-77"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-77": {
+        "props": {
+            "src": "/arquivos/schwalbe.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/schwalbe"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-77": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Schwalbe",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/schwalbe"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-78": {
+        "children": [
+            "image#sub-menu-marca-78",
+            "rich-text#menu-imagen-marca-78"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-78": {
+        "props": {
+            "src": "/arquivos/spank.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/spank"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-78": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Spank",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/spank"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-79": {
+        "children": [
+            "image#sub-menu-marca-79",
+            "rich-text#menu-imagen-marca-79"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-79": {
+        "props": {
+            "src": "/arquivos/time.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/time"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-79": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Time",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/time"
+            }
+        }
+    },
+    "flex-layout.col#submenu-marca-imagen-80": {
+        "children": [
+            "image#sub-menu-marca-80",
+            "rich-text#menu-imagen-marca-80"
+        ],
+        "props": {
+            "blockClass": "col-submenu-marca",
+            "preventVerticalStretch": true      
+        }
+    },
+    "image#sub-menu-marca-80": {
+        "props": {
+            "src": "/arquivos/wtb.jpg",
+            "blockClass": "imagen-menu",
+            "link": {
+                "url": "/wtb"
+            }
+        }
+    },
+    "rich-text#menu-imagen-marca-80": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Wtb",
+            "blockClass": "texto-submenu-imagen",
+            "link": {
+                "url": "/wtb"
+            }
+        }
+    }    
 
 }

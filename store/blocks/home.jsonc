@@ -433,9 +433,9 @@
       "rich-text#titulo-noticias",
       "rich-text#fondo-color",
       "flex-layout.row#noticias",
-      "rich-text#titulo-instagram",
-      "rich-text#fondo-color",
-      "iframe#instagram",
+      //"rich-text#titulo-instagram",
+      //"rich-text#fondo-color",
+      //"iframe#instagram",
       "flex-layout.row#links-home"
     ]
   },
@@ -453,9 +453,9 @@
       "rich-text#titulo-noticias",
       "rich-text#fondo-color",
       "flex-layout.row#noticias-mobile",
-      "rich-text#titulo-instagram",
-      "rich-text#fondo-color",
-      "iframe#instagram-mobile",
+      //"rich-text#titulo-instagram",
+      //"rich-text#fondo-color",
+      //"iframe#instagram-mobile",
       "flex-layout.row#links-home"
     ]
   },
