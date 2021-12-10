@@ -143,6 +143,12 @@
   width: 100%;
 }
 
+.imageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   .imageNormal {
     max-height: 200px;

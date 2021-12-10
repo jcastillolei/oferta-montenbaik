@@ -2,13 +2,14 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop-home",
-      "responsive-layout.tablet#desktop-home",
-      "responsive-layout.phone#mobile-home"
+      //"responsive-layout.tablet#desktop-home",
+      "responsive-layout.mobile#mobile-home"
     ]
   },
   "responsive-layout.desktop#desktop-home": {
     "children": [
-      "slider-layout#home",
+      "list-context.image-list#main-carousel",
+      //"slider-layout#home",
       "slider-layout#home-marcas",
       "flex-layout.row#categorias",
       "shelf#Los-mas-populares",
@@ -440,9 +441,10 @@
     ]
   },
   /* MOBILE */
-  "responsive-layout.phone#mobile-home": {
+  "responsive-layout.mobile#mobile-home": {
     "children": [
-      "slider-layout#home-mobile",
+      "list-context.image-list#main-carousel",
+      //"slider-layout#home-mobile",
       "slider-layout#home-marcas",
       "flex-layout.row#categorias",
       "shelf#Los-mas-populares-mobile",

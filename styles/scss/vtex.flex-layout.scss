@@ -21,7 +21,7 @@
 }
 
 .flexRow--header-main {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0);
   padding-top: 34px;
   z-index: 5;
 }
@@ -55,7 +55,7 @@
 }
 
 .flexRow--main-header-mobile {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0);
   z-index: 100;
 }
 
@@ -540,6 +540,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .flexRowContent--main-header-mobile,
+  .flexRowContent--search-header-mobile {
+    justify-content: space-between;
+    padding: 0 4%;
+  }
 }
 
 .flexRowContent--top-header-mobile {

@@ -1,4 +1,68 @@
 {
+  "list-context.image-list#main-carousel": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height":720,
+      "images": [
+        {
+          "image": "/arquivos/banner-regalos.jpg",
+          "mobileImage": "/arquivos/banner-regalos-mobile.jpg",
+          "link": {
+            "url": "/269?map=productClusterIds&order=OrderByBestDiscountDESC"
+          },
+          "blockClass":"slider-home"
+        },
+        {
+          "image": "/arquivos/banner-nuevas-marcas.jpg",
+          "mobileImage": "/arquivos/banner-nuevas-marcas-mobile.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Blusa"
+          },
+          "blockClass":"slider-home"
+        },
+        {
+          "image": "/arquivos/guia-navidena.jpg",
+          "mobileImage": "/arquivos/guia-navidena-mobile.gif",
+          "link": {
+            "url": "/kalisson?_q=kalisson&map=ft"
+          },
+          "blockClass":"slider-home"
+        },
+        {
+          "image": "/arquivos/recien-llegados.jpg",
+          "mobileImage": "/arquivos/recien-llegados-mobile.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Blusa"
+          },
+          "blockClass":"slider-home"
+        },
+        {
+          "image": "/arquivos/neumaticos.jpg",
+          "mobileImage": "/arquivos/neumaticos-mobile.jpg",
+          "link": {
+            "url": "/Vestuario/Blusas-y-poleras/Blusa"
+          },
+          "blockClass":"slider-home"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2500,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-home"
+    }
+  },
   "slider-layout#home": {
     "children": [
       "image#slider-home-1",
