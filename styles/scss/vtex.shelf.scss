@@ -22,6 +22,12 @@
   margin-right: -40px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1375px){
+  .arrow {
+    display: none;
+  }
+}
+
 .caretIcon--shelf-destacados {
   width: 45px;
   height: 45px;
