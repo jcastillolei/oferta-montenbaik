@@ -118,8 +118,8 @@
     "props": {
       "maxItemsCategory": 25,
       "maxItemsDepartment": 25,
-      "initiallyCollapsed": true,
-      "openFiltersMode": "one",
+      "initiallyCollapsed": false,
+      //"openFiltersMode": "one",
       "truncateFilters": true,
       "totalProductsOnMobile": "show"
     }
