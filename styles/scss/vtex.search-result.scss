@@ -61,6 +61,16 @@
   order: -1;
 }
 
+.filter__container--talla{
+  order: 1;
+}
+
+.filter__container--color{
+  order: 2;
+}
+
+
+
 .filterTitle {
   font-family: l.$font-3;
   font-weight: 400;
