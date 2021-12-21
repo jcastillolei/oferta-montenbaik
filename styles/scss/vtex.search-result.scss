@@ -51,6 +51,10 @@
   flex-direction: column;
 }
 
+.filter__container{
+  order: 10;
+}
+
 .filter__container--title,
 .filterAccordionBreadcrumbs {
   order: -2;
@@ -61,12 +65,16 @@
   order: -1;
 }
 
-.filter__container--talla{
+.filter__container--brand{
   order: 1;
 }
 
+.filter__container--talla{
+  order: 11;
+}
+
 .filter__container--color{
-  order: 2;
+  order: 12;
 }
 
 
