@@ -1,7 +1,34 @@
 {
     "store.custom#vende-tu-bici": {
         "blocks": [
-            //"responsive-layout.desktop#specialized-landing"
+            "list-context.image-list#main-carousel",
+            "slider-layout#home-marcas",
+            "flex-layout.row#cont-info"
         ]
+    },
+    "flex-layout.row#cont-info":{
+        "children":[
+            "flex-layout.col#cont-info-1",
+            "flex-layout.col#cont-info-2",
+            "flex-layout.col#cont-info-3"
+        ],
+        "props":{
+            "blockClass": "row-cont-info"
+        }
+    },
+    "flex-layout.col#cont-info-1":{
+        "props":{
+            "blockClass": "col-cont-info"
+        }
+    },
+    "flex-layout.col#cont-info-2":{
+        "props":{
+            "blockClass": "col-cont-info"
+        }
+    },
+    "flex-layout.col#cont-info-3":{
+        "props":{
+            "blockClass": "col-cont-info"
+        }
     }
 }

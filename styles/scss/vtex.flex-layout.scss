@@ -1109,4 +1109,20 @@
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
+
+  /*Vende tu bici*/
+
+  .flexRowContent{
+    &--row-cont-info{
+      justify-content: space-between;
+      margin-top: 100px;
+    }
+
+    & .stretchChildrenWidth {
+      justify-content: center;
+      height: 400px;
+      width: 30% !important;
+      background: black;
+    }
+  }
 }
