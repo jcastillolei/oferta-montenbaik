@@ -115,7 +115,7 @@
       "sku-selector",
       "flex-layout.col#spacer-producto2",
       "flex-layout.row#cart-button",
-      "availability-subscriber",
+      "availability-notify",
       "product-identifier.product",
       "product-seller-name",
       "link-seller"
@@ -445,7 +445,7 @@
       "sku-selector#mobile",
       "product-quantity",
       "add-to-cart-button#product",
-      "availability-subscriber",
+      "availability-notify",
       "product-identifier.product",
       "product-seller-name",
       "link-seller",
@@ -529,12 +529,6 @@
     "props": {
       "shoudCollapseOnTabChange": false,
       "collapseContent": false
-    }
-  },
-  "availability-subscriber": {
-    "props": {
-      "blockClass": "disponibilidad",
-      "component": "AvailabilitySubscriber"
     }
   }
 }

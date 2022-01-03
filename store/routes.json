@@ -7,5 +7,8 @@
   },
   "store.custom#enviame": {
     "path": "/sigue-tu-pedido"
+  },
+  "store.custom#vende-tu-bici": {
+    "path": "/vende-tu-bici"
   }
 }
