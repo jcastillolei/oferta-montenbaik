@@ -1,10 +1,21 @@
 {
     "store.custom#vende-tu-bici": {
         "blocks": [
-            "list-context.image-list#main-carousel",
+            "image#img-1",
             "slider-layout#home-marcas",
-            "flex-layout.row#cont-info"
+            "flex-layout.row#cont-info",
+            "my-component",
+            "shelf#Los-mas-populares"
         ]
+    },
+    "image#img-1": {
+        "props": {
+          "src": "/arquivos/banner-regalos.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": ["imagen-categoria-1","banner-vende"]
+        }
     },
     "flex-layout.row#cont-info":{
         "children":[
@@ -17,18 +28,108 @@
         }
     },
     "flex-layout.col#cont-info-1":{
+        "children":[
+            "image#img-icon-1",
+            "rich-text#box-1-1",
+            "rich-text#box-1-2"
+        ],
         "props":{
             "blockClass": "col-cont-info"
         }
     },
     "flex-layout.col#cont-info-2":{
+        "children":[
+            "image#img-icon-2",
+            "rich-text#box-2-1",
+            "rich-text#box-2-2"
+        ],
         "props":{
             "blockClass": "col-cont-info"
         }
     },
     "flex-layout.col#cont-info-3":{
+        "children":[
+            "image#img-icon-3",
+            "rich-text#box-3-1",
+            "rich-text#box-3-2"
+        ],
         "props":{
             "blockClass": "col-cont-info"
+        }
+    },
+    "image#img-icon-1": {
+        "props": {
+          "src": "/arquivos/megafono-1.png",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": ["imagen-icon-1"]
+        }
+    },
+    "rich-text#box-1-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¿En qué consiste?",
+          "blockClass": ["box-vende-img"]
+        }
+    },
+    "rich-text#box-1-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "blockClass": "box-vende-text"
+        }
+    },
+    "image#img-icon-2": {
+        "props": {
+          "src": "/arquivos/portapapeles-1.png",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": ["imagen-icon-1"]
+        }
+    },
+    "rich-text#box-2-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¿Cuáles son los requisitos?",
+          "blockClass": ["box-vende-img"]
+        }
+    },
+    "rich-text#box-2-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "blockClass": "box-vende-text"
+        }
+    },
+    "image#img-icon-3": {
+        "props": {
+          "src": "/arquivos/informacion-1.png",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": ["imagen-icon-1"]
+        }
+    },
+    "rich-text#box-3-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¿Qué debo hacer?",
+          "blockClass": ["box-vende-img"]
+        }
+    },
+    "rich-text#box-3-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "blockClass": "box-vende-text"
         }
     }
 }

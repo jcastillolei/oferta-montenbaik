@@ -1,0 +1,117 @@
+:global(.vtex-store-components-3-x-imageElement--banner-vende){
+    margin-top: -166px;
+}
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+    background: #f2f2f2;
+}
+
+.rowLeft {
+    width: 50%;
+    padding: 3%;
+}
+
+.rowRight {
+    width: 50%;
+    padding: 3%;
+}
+
+.columna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .spanInput {
+        width: 40%;
+        margin-bottom: 5%;
+    }
+    
+    .inputFormulario {
+        width: 60%;
+        margin-bottom: 5%;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px;
+        height: 36px;
+    }
+    
+    .selectAnidado {
+        width: 60%;
+        margin-bottom: 5%;
+        border-radius: 2px;
+        height: 36px;
+    }
+
+    & :global(.vtex-styleguide-9-x-dropdown){
+        width: 60%;
+        margin-bottom: 5%;
+    }
+}
+
+.btnForm {
+    background: #00aeef;
+    border: none;
+    color: white;
+    width: 10%;
+    padding: 1%;
+    margin-bottom: 5%;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width:991px){
+    .formulario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .rowLeft {
+        width: 100%;
+        padding: 3%;
+    }
+    
+    .rowRight {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .columna {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        .spanInput {
+            width: 100%;
+            margin-bottom: 2%;
+            margin-top: 5%;
+        }
+        
+        .inputFormulario {
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        & :global(.vtex-styleguide-9-x-dropdown){
+            width: 100%;
+        }
+    }
+
+    .btnForm {
+        width: 30%;
+        padding: 2%;
+    }
+}

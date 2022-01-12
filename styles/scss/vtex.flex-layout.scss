@@ -932,6 +932,111 @@
   align-items: center;
 }
 
+/*Vende tu bici*/
+.flexRow--row-cont-info{
+  margin: 5% 0;
+
+  & :global(.vtex-store-components-3-x-container){
+    display: flex;
+    justify-content: center;
+
+    .flexRowContent{
+      &--row-cont-info{
+        justify-content: space-between;
+        width: 90%;
+        height: 100%;
+        align-items: center;
+      }
+
+      & .flexCol--col-cont-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      & .flexColChild--col-cont-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto !important;
+      }
+
+      & .flexColChild--col-cont-info:last-child{
+        align-items: flex-start;
+      }
+
+      & .stretchChildrenWidth {
+        justify-content: center;
+        height: 400px;
+        width: 30% !important;
+        background: #ededed;
+      }
+
+      & :global(.vtex-rich-text-0-x-paragraph--box-vende-img){
+        color: black;
+        font-size: 2rem;
+      }
+
+      & :global(.vtex-rich-text-0-x-paragraph--box-vende-text){
+        color: black;
+        font-size: 1.2rem;
+      }
+
+    }
+
+  }
+}
+
+@media screen and (max-width:991px){
+  .flexRow--row-cont-info{
+    margin: 5% 0;
+  
+    & :global(.vtex-store-components-3-x-container){
+      display: flex;
+      justify-content: center;
+  
+      .flexRowContent{
+        &--row-cont-info{
+          justify-content: space-between;
+          width: 90%;
+          height: 100%;
+          align-items: center;
+        }
+  
+        & .flexCol--col-cont-info{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+  
+        & .flexColChild--col-cont-info{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: auto !important;
+        }
+
+        & .stretchChildrenWidth {
+          width: 100% !important;
+          margin-bottom: 5%;
+          padding: 2%;
+        }
+  
+        & :global(.vtex-rich-text-0-x-paragraph--box-vende-img){
+          color: black;
+          font-size: 1.3rem;
+        }
+  
+        & :global(.vtex-rich-text-0-x-paragraph--box-vende-text){
+          color: black;
+          font-size: 1rem;
+        }  
+      }
+  
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   .flexColChild--col-contenedor-institucional {
     display: block;
@@ -1108,21 +1213,5 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-  }
-
-  /*Vende tu bici*/
-
-  .flexRowContent{
-    &--row-cont-info{
-      justify-content: space-between;
-      margin-top: 100px;
-    }
-
-    & .stretchChildrenWidth {
-      justify-content: center;
-      height: 400px;
-      width: 30% !important;
-      background: black;
-    }
   }
 }

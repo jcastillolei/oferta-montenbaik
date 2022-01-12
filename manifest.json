@@ -58,7 +58,8 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.product-specifications": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.seller-selector": "0.x"
+    "vtex.seller-selector": "0.x",
+    "montenbaikcl.formu": "0.x"
   },
   "peerDependencies": {
     "vtex.availability-notify": "1.x"
