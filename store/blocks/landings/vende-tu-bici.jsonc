@@ -2,7 +2,6 @@
     "store.custom#vende-tu-bici": {
         "blocks": [
             "image#img-1",
-            "slider-layout#home-marcas",
             "flex-layout.row#cont-info",
             "my-component",
             "shelf#Los-mas-populares"
