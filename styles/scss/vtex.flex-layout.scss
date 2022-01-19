@@ -933,53 +933,92 @@
 }
 
 /*Vende tu bici*/
+:global(.vtex-modal-layout-0-x-paperScrollContent) {
+  height: 70%;
+  min-width: 900px;
+
+  & :global(.vtex-modal-layout-0-x-headerContainer){
+    border:none;
+  }
+
+  & :global(.vtex-rich-text-0-x-wrapper){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+  & :global(.vtex-rich-text-0-x-paragraph){
+    color: black;
+    width: 90%;
+  }
+
+  & :global(.vtex-rich-text-0-x-strong) {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    color: black;
+  }
+
+}
+
 .flexRow--row-cont-info{
   margin: 5% 0;
 
   & :global(.vtex-store-components-3-x-container){
     display: flex;
     justify-content: center;
+    max-width: 100%;
 
     .flexRowContent{
       &--row-cont-info{
-        justify-content: space-between;
-        width: 90%;
+        justify-content: space-around;
+        width: 100%;
         height: 100%;
         align-items: center;
       }
 
       & .flexCol--col-cont-info{
-        display: flex;
-        align-items: center;
+        text-align: center;
         justify-content: center;
+        margin-top: 2%;
       }
 
       & .flexColChild--col-cont-info{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto !important;
-      }
-
-      & .flexColChild--col-cont-info:last-child{
-        align-items: flex-start;
+        height: unset !important;
       }
 
       & .stretchChildrenWidth {
         justify-content: center;
-        height: 400px;
-        width: 30% !important;
+        height: 350px;
+        width: 22% !important;
         background: #ededed;
       }
 
       & :global(.vtex-rich-text-0-x-paragraph--box-vende-img){
         color: black;
-        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+
+        & :global(.vtex-rich-text-0-x-strong--box-vende-img){
+          font-size: 1.5rem;
+          padding: 5% 0;
+        }
+
+        & :global(.vtex-rich-text-0-x-italic--box-vende-img){
+          font-size: 1rem;
+          font-style: normal;
+        }
       }
 
-      & :global(.vtex-rich-text-0-x-paragraph--box-vende-text){
-        color: black;
-        font-size: 1.2rem;
+      & :global(.vtex-modal-layout-0-x-triggerContainer){
+        & :global(.vtex-rich-text-0-x-paragraph){
+          margin: 0;
+        }
       }
 
     }

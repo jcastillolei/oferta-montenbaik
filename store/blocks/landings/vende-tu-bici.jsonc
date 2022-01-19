@@ -17,118 +17,87 @@
         }
     },
     "flex-layout.row#cont-info":{
-        "children":[
-            "flex-layout.col#cont-info-1",
-            "flex-layout.col#cont-info-2",
-            "flex-layout.col#cont-info-3"
-        ],
-        "props":{
-            "blockClass": "row-cont-info"
-        }
+      "children":[
+        "rich-text#box-1",
+        "rich-text#box-2",
+        "rich-text#box-3",
+        "flex-layout.col#box-4"
+      ],
+      "props":{
+          "blockClass": "row-cont-info"
+      }
     },
-    "flex-layout.col#cont-info-1":{
+    "rich-text#box-1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"![](/arquivos/megafono-1.png)**¿En qué consiste?** *Est es una alianza entre Montebaik.com y Biciusados donde podrás dejar tu bicicleta en parte de pago y utilizar ese monto para abonarlo al momento de comprar tu nueva Bicicleta.*",
+        "blockClass": ["box-vende-img"],
+        "htmlId":"box-1"
+      }
+    },
+    "rich-text#box-2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "![](/arquivos/portapapeles-1.png)**¿Cuáles son los requisitos?** *Te haremos algunas preguntas. para ver si tu bicicleta es pre-aprobada por Biciusados. Luego se coordinaría una inspección visual de tu bicicleta.*",
+        "blockClass": ["box-vende-img"],
+        "htmlId":"box-2"
+      }
+    },
+    "rich-text#box-3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"![](/arquivos/informacion-1.png)**¿Qué debo hacer?** *Debes completar tu información personal y la de tu bicicleta, marca, modelo, aro, si eres el primer dueño. Luego si es pre-aprobada, se pedirán más datos.*",
+        "blockClass": ["box-vende-img"],
+        "htmlId":"box-3"
+      }
+    },
+    "rich-text#box-4": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"![](/arquivos/informacion-1.png)**Terminos y Condiciones** *Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el...*",
+        "blockClass": ["box-vende-img"],
+        "htmlId":"box-4"
+      }
+    },
+    "flex-layout.col#box-4":{
         "children":[
-            "image#img-icon-1",
-            "rich-text#box-1-1",
-            "rich-text#box-1-2"
+          "rich-text#box-4",
+          "modal-trigger#term-cond"
         ],
         "props":{
             "blockClass": "col-cont-info"
         }
     },
-    "flex-layout.col#cont-info-2":{
-        "children":[
-            "image#img-icon-2",
-            "rich-text#box-2-1",
-            "rich-text#box-2-2"
-        ],
-        "props":{
-            "blockClass": "col-cont-info"
-        }
-    },
-    "flex-layout.col#cont-info-3":{
-        "children":[
-            "image#img-icon-3",
-            "rich-text#box-3-1",
-            "rich-text#box-3-2"
-        ],
-        "props":{
-            "blockClass": "col-cont-info"
-        }
-    },
-    "image#img-icon-1": {
-        "props": {
-          "src": "/arquivos/megafono-1.png",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": ["imagen-icon-1"]
-        }
-    },
-    "rich-text#box-1-1": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "¿En qué consiste?",
-          "blockClass": ["box-vende-img"]
-        }
-    },
-    "rich-text#box-1-2": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "blockClass": "box-vende-text"
-        }
-    },
-    "image#img-icon-2": {
-        "props": {
-          "src": "/arquivos/portapapeles-1.png",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": ["imagen-icon-1"]
-        }
-    },
-    "rich-text#box-2-1": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "¿Cuáles son los requisitos?",
-          "blockClass": ["box-vende-img"]
-        }
-    },
-    "rich-text#box-2-2": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "blockClass": "box-vende-text"
-        }
-    },
-    "image#img-icon-3": {
-        "props": {
-          "src": "/arquivos/informacion-1.png",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": ["imagen-icon-1"]
-        }
-    },
-    "rich-text#box-3-1": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "¿Qué debo hacer?",
-          "blockClass": ["box-vende-img"]
-        }
-    },
-    "rich-text#box-3-2": {
-        "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "blockClass": "box-vende-text"
-        }
-    }
+    "modal-trigger#term-cond": {
+     "children": [
+       "rich-text#term-cond-text",
+       "modal-layout#term-cond-modal"
+     ]
+   },
+   "rich-text#term-cond-text": {
+     "props": {
+       "text": "Leer mas"
+     }
+   },
+   "modal-layout#term-cond-modal": {
+     "children": [
+       "modal-header",
+       "rich-text#modal-content"
+     ]
+   },
+   "rich-text#modal-content": {
+     "props": {
+       "text": "**Terminos y condiciones**\n Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el Este es un servicio prestado en conjunto entre Biciusados y Montenbaik.com para fácilitar la compra de una nueva bicicleta. Biciusados se reserva el"
+     }
+   },
+   "modal-header":{
+     "props":{
+       "showCloseButton":true,
+       "iconCloseSize": 20
+     }
+   }
 }
