@@ -2,6 +2,10 @@
     "store.custom#vende-tu-bici": {
         "blocks": [
             "image#img-1",
+            "overlay-trigger#1",
+            "overlay-trigger#2",
+            "overlay-trigger#3",
+            "overlay-trigger#4",
             "flex-layout.row#cont-info",
             "my-component",
             "shelf#Los-mas-populares"
@@ -15,6 +19,87 @@
           },
           "blockClass": ["imagen-categoria-1","banner-vende"]
         }
+    },
+    "overlay-trigger#1": {
+      "children": [
+        "rich-text#question1",
+        "overlay-layout#1"    
+      ]
+    },
+    "rich-text#question1": {
+      "props": {
+        "text": "**¿En qué consiste?**",
+        "blockClass": "question"
+      }
+    },
+    "overlay-layout#1": {
+      "props": {
+        "placement": "bottom"
+      },
+      "children": [
+        "rich-text#box-1"
+      ]
+    },
+    "overlay-trigger#2": {
+      "children": [
+        "rich-text#question2",
+        "overlay-layout#2"    
+      ]
+    },
+    "rich-text#question2": {
+      "props": {
+        "text": "**¿Cuáles son los requisitos?**",
+        "blockClass": "question"
+      }
+    },
+    "overlay-layout#2": {
+      "props": {
+        "placement": "bottom"
+      },
+      "children": [
+        "rich-text#box-2"
+      ]
+    },
+    "overlay-trigger#3": {
+      "children": [
+        "rich-text#question3",
+        "overlay-layout#3"    
+      ]
+    },
+    "rich-text#question3": {
+      "props": {
+        "text": "**¿Qué debo hacer?**",
+        "blockClass": "question"
+      }
+    },
+    "overlay-layout#3": {
+      "props": {
+        "placement": "bottom"
+      },
+      "children": [
+        "rich-text#box-3"
+      ]
+    },
+    "overlay-trigger#4": {
+      "children": [
+        "rich-text#question4",
+        "overlay-layout#box-4"    
+      ]
+    },
+    "rich-text#question4": {
+      "props": {
+        "text": "**Terminos y Condiciones**",
+        "blockClass": "question"
+      }
+    },
+    "overlay-layout#box-4": {
+      "props": {
+        "placement": "bottom"
+      },
+      "children": [
+        "rich-text#box-4",
+        "modal-trigger#term-cond"
+      ]
     },
     "flex-layout.row#cont-info":{
       "children":[
@@ -31,7 +116,7 @@
       "props": {
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"![](/arquivos/megafono-1.png)**¿En qué consiste?** *Est es una alianza entre Montebaik.com y Biciusados donde podrás dejar tu bicicleta en parte de pago y utilizar ese monto para abonarlo al momento de comprar tu nueva Bicicleta.*",
+        "text":"![](/arquivos/megafono-1.png)**¿En qué consiste?** *Esta es una alianza entre Montebaik.com y Biciusados donde podrás dejar tu bicicleta en parte de pago y utilizar ese monto para abonarlo al momento de comprar tu nueva Bicicleta.*",
         "blockClass": ["box-vende-img"],
         "htmlId":"box-1"
       }
@@ -76,7 +161,10 @@
      "children": [
        "rich-text#term-cond-text",
        "modal-layout#term-cond-modal"
-     ]
+     ],
+     "props":{
+      "blockClass":["disp-vende-bici"]
+    }
    },
    "rich-text#term-cond-text": {
      "props": {
@@ -87,7 +175,10 @@
      "children": [
        "modal-header",
        "rich-text#modal-content"
-     ]
+     ],
+     "props":{
+       "blockClass":["modal-vende-bici"]
+     }
    },
    "rich-text#modal-content": {
      "props": {
