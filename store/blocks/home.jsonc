@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "list-context.image-list#main-carousel",
       "responsive-layout.desktop#desktop-home",
       //"responsive-layout.tablet#desktop-home",
       "responsive-layout.mobile#mobile-home"
@@ -8,7 +9,6 @@
   },
   "responsive-layout.desktop#desktop-home": {
     "children": [
-      "list-context.image-list#main-carousel",
       //"slider-layout#home",
       "slider-layout#home-marcas",
       "flex-layout.row#categorias",
@@ -443,7 +443,7 @@
   /* MOBILE */
   "responsive-layout.mobile#mobile-home": {
     "children": [
-      "list-context.image-list#main-carousel",
+      //"list-context.image-list#main-carousel",
       //"slider-layout#home-mobile",
       "slider-layout#home-marcas",
       "flex-layout.row#categorias",

@@ -1,7 +1,7 @@
 {
     "store.custom#vende-tu-bici": {
         "blocks": [
-            "image#img-1",
+            "list-context.image-list#img-vende-bici",
             "overlay-trigger#1",
             "overlay-trigger#2",
             "overlay-trigger#3",
@@ -11,14 +11,33 @@
             "shelf#Los-mas-populares"
         ]
     },
-    "image#img-1": {
-        "props": {
-          "src": "/arquivos/banner-regalos.jpg",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": ["imagen-categoria-1","banner-vende"]
-        }
+    "list-context.image-list#img-vende-bici": {
+      "children": ["slider-layout#img-vende-bici-slide"],
+      "props": {
+        "height":720,
+        "images": [
+          {
+            "image": "/arquivos/banner-regalos.jpg",
+            "mobileImage": "/arquivos/banner-regalos.jpg",
+            "link": {
+              "url": "/269?map=productClusterIds&order=OrderByBestDiscountDESC"
+            },
+            "blockClass":"slider-home"
+          }
+        ]
+      }
+    },
+    "slider-layout#img-vende-bici-slide":{
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": "slider-home"
+      }
     },
     "overlay-trigger#1": {
       "children": [
