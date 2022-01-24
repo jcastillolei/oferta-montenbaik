@@ -3,9 +3,9 @@
     width: 100%;
     display: none;
 
-    & .container--question{
+    & :global(.vtex-rich-text-0-x-container--question){
         padding-left: 5%;
-        color: black;
+        color: #000000;
     }
 }
 

@@ -17,8 +17,8 @@
         "height":720,
         "images": [
           {
-            "image": "/arquivos/banner-regalos.jpg",
-            "mobileImage": "/arquivos/banner-regalos.jpg",
+            "image": "/arquivos/explora_24-01-22.jpg",
+            "mobileImage": "/arquivos/explora_mobile24-01-22.jpg",
             "link": {
               "url": "/269?map=productClusterIds&order=OrderByBestDiscountDESC"
             },

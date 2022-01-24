@@ -53,13 +53,32 @@
         margin-bottom: 5%;
         border-radius: 2px;
         height: 36px;
-        
+        display:flex;
+        align-items:center;
+
+        .montenbaikcl-formu-0-x-spanInput{
+            margin-bottom:0;
+        }
     }
 
     & :global(.vtex-styleguide-9-x-dropdown){
         width: 60%;
         margin-bottom: 5%;
     }
+}
+
+@media screen and (max-width:991px){
+    .selectAnidado {
+    	flex-direction: column;
+        height: auto !important;
+        margin-bottom: 0 !important;
+
+        .montenbaikcl-formu-0-x-spanInput{
+            margin-bottom:2%;
+        }
+    }
+    
+    
 }
 
 .btnForm {
