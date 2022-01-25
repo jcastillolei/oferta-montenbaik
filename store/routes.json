@@ -10,5 +10,8 @@
   },
   "store.custom#vende-tu-bici": {
     "path": "/vende-tu-bici"
+  },
+  "store.custom#inscribete-eventos":{
+    "path": "/inscripcion-eventos"
   }
 }

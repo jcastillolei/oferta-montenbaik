@@ -1,0 +1,68 @@
+{
+    "store.custom#inscribete-eventos": {
+        "blocks": [
+            "list-context.image-list#img-eventos",
+            "overlay-trigger#info-eventos",
+            "rich-text#info-eventos-text",
+            //"my-component",
+            "shelf#Los-mas-populares"
+        ]
+    },
+    "list-context.image-list#img-eventos": {
+      "children": ["slider-layout#img-eventos-slide"],
+      "props": {
+        "height":720,
+        "images": [
+          {
+            "image": "/arquivos/test-rodilleras24-01-22.jpg",
+            "mobileImage": "/arquivos/test-rodilleras-mobile24-01-22.jpg",
+            "link": {
+              "url": "/269?map=productClusterIds&order=OrderByBestDiscountDESC"
+            },
+            "blockClass":"slider-home"
+          }
+        ]
+      }
+    },
+    "slider-layout#img-eventos-slide":{
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": "slider-home"
+      }
+    },
+    "overlay-trigger#info-eventos": {
+      "children": [
+        "rich-text#question-eventos",
+        "overlay-layout#show-text"    
+      ]
+    },
+    "rich-text#question-eventos": {
+      "props": {
+        "text": "**¿En qué consiste?**",
+        "blockClass": "question"
+      }
+    },
+    "overlay-layout#show-text": {
+      "props": {
+        "placement": "bottom"
+      },
+      "children": [
+        "rich-text#info-eventos-text"
+      ]
+    },
+    "rich-text#info-eventos-text": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"El Campeonato Nacional Montenbaik Enduro Series está diseñado para ser la prueba definitiva de un Montenbaiker. Nuestro foco está en crear en cada evento una grata convivencia, aventura y competición sacándole el máximo partido a los sendero del lugar, intentando abrir nuevas rutas para seguir sorprendiendo a los corredores con pruebas especiales técnicas y con mucho Flow.\n El formato de carrera descrito más adelante permite a los corredores competir entre ellos partiendo individualmente cada prueba especial (PE) las cuales están diseñadas para desafiar las habilidades técnicas y la capacidad física de cada Mountainbiker.\n Para más información sobre los reglamentos visiten nuestra web: [WWW.MONTENBAIKENDURO.COM](www.montenbaikenduro.com)\n A los inscritos: no olviden revisar el Reglamento Oficial, el Notice of Race y el Race Book.\n\n Los Esperamos en alguna de las fechas del 2022 que se detallan a continuación.\n\n Recuerda llevar tu **Pase de movilidad** el cual será escaneado para poder ingresar al evento. No podrán participar en el evento personas que no tengan su pase de movilidad. \n\n **A continuación podrás inscribirte para el Campeonato Montenbaik Enduro 2022, Debes rellenar todos los campos y aceptar las tres condiciones finales, luego presiona ir al pago para concretar tu inscripción. ** ",
+        "blockClass": ["eventos-text-info"],
+        "htmlId":"cont-text-eventos"
+      }
+    }
+}
