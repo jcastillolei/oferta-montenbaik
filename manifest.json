@@ -60,7 +60,8 @@
     "vtex.sandbox": "0.x",
     "vtex.seller-selector": "0.x",
     "vtex.overlay-layout": "0.x",
-    "montenbaikcl.formu": "0.x"
+    "montenbaikcl.formu": "0.x",
+    "montenbaikcl.formu-carreras": "0.x"
   },
   "peerDependencies": {
     "vtex.availability-notify": "1.x"

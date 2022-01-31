@@ -1,0 +1,92 @@
+.containerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+    .labelForm {
+        width: 40%;
+    }
+
+    .inputFormulario {
+        width: 60%;
+        margin: 2% 0;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px;
+        height: 36px;
+    }
+
+    :global(.vtex-styleguide-9-x-dropdown){
+        width: 60%;
+        margin: 2% 0;
+    }
+
+    .titleOne,
+    .titleTwo{
+        text-align: center;
+        width: 100%;
+    }
+
+    .eventosForm {
+        width: 70%;
+        max-width: 1200px;
+        min-width: 900px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .contentFirst {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            padding: 2%;
+        }
+    
+        .contentSecond {
+            display: flex;
+            justify-content: center;
+
+            .firstColumn,
+            .secondColumn, {
+                padding: 2%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 50%;
+            }
+        }
+
+        .contentThird {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 4% 0;
+
+            .labelForm {
+                width: 80%;
+                margin: 1% 0;
+            }
+
+            :global(.vtex-checkbox__line-container){
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .btnSend {
+                background: #00aeef;
+                border: none;
+                color: white;
+                width: 10%;
+                padding: 1%;
+                margin: 5%;
+                border-radius: 0.25rem;
+            }
+        }
+    }
+
+    
+}

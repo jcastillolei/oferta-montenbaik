@@ -4,9 +4,13 @@
             "list-context.image-list#img-eventos",
             "overlay-trigger#info-eventos",
             "rich-text#info-eventos-text",
+            "formu-carreras",
             //"my-component",
             "shelf#Los-mas-populares"
         ]
+    },
+    "formu-carreras":{
+
     },
     "list-context.image-list#img-eventos": {
       "children": ["slider-layout#img-eventos-slide"],
