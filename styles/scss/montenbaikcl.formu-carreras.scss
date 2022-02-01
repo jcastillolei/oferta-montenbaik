@@ -14,6 +14,7 @@
         border: 1px solid #c8c8c8;
         border-radius: 2px;
         height: 36px;
+        padding: 0 1rem;
     }
 
     :global(.vtex-styleguide-9-x-dropdown){
@@ -47,7 +48,7 @@
             justify-content: center;
 
             .firstColumn,
-            .secondColumn, {
+            .secondColumn {
                 padding: 2%;
                 display: flex;
                 flex-wrap: wrap;
@@ -80,7 +81,7 @@
                 background: #00aeef;
                 border: none;
                 color: white;
-                width: 10%;
+                width: 20%;
                 padding: 1%;
                 margin: 5%;
                 border-radius: 0.25rem;
@@ -88,5 +89,59 @@
         }
     }
 
+    
+}
+
+@media screen and (max-width:991px) {
+    .labelForm {
+        width: 100% !important;
+    }
+
+    .inputFormulario {
+        width: 100% !important;
+    }
+
+    :global(.vtex-styleguide-9-x-dropdown){
+        width: 100% !important;
+    }
+
+    .eventosForm {
+        width: 90% !important;
+        min-width: 300px !important;
+
+
+
+        .contentFirst {
+            width: 100% !important;
+            flex-wrap: wrap;
+        }
+        
+        .contentSecond {
+            flex-direction: column;
+            align-items: center;
+
+            .firstColumn,
+            .secondColumn {
+                width: 100% !important;
+            }
+        }
+
+        .contentThird {
+            width: 100% !important;
+
+            .labelForm {
+                width: 90%!important;
+            }
+
+            :global(.vtex-checkbox__line-container){
+                width: 10% !important;
+            }
+
+            .btnSend {
+                width: 35% !important;
+                padding: 2% !important;
+            }
+        }
+    }
     
 }
