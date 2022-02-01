@@ -2,7 +2,7 @@
     "store.custom#inscribete-eventos": {
         "blocks": [
             "list-context.image-list#img-eventos",
-            "overlay-trigger#info-eventos",
+            //"overlay-trigger#info-eventos",
             "rich-text#info-eventos-text",
             "formu-carreras",
             //"my-component",
