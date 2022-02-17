@@ -101,7 +101,7 @@
 }
 
 .slide--shelf-relacionados {
-  margin-right: 15px;
+  margin: 0 8px;
 }
 
 .dot--isActive--shelf-relacionados {
@@ -138,7 +138,7 @@
   }
 }
 
-@media screen and (max-width: 1080px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .sliderContainer--shelf-destacados {
     max-width: 90%;
   }

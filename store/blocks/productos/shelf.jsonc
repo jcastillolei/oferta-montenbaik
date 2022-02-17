@@ -71,6 +71,9 @@
   },
   "product-summary-image": {
     "props": {
+      "aspectRatio": {
+        "mobile": "4:3"
+      },
       "hoverImage": {
         "criteria": "index",
         "index": 1
