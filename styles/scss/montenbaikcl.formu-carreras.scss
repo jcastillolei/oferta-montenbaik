@@ -58,6 +58,24 @@
         width: 40%;
     }
 
+    .contInputrut {
+        width: 60%;
+        margin: 2% 0;
+
+        .inputFormulario {
+            width: 100%;
+            border: 1px solid #c8c8c8;
+            border-radius: 2px;
+            height: 36px;
+        }
+
+        .rutInvalido {
+            padding: 2%;
+            color: #ff3131;
+            font-size: .8rem;
+        }
+    }
+
     .inputFormulario {
         width: 60%;
         margin: 2% 0;
