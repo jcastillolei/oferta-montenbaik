@@ -214,3 +214,83 @@
     }
     
 }
+
+.modal_inscripciones{
+    height: 100vh;
+    width: 100vw;
+    background: #002b3b75;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;;
+}
+.contInscripciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    width: 50vw;
+    height: 330px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+.cruzModal{
+    width: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.tituloInscripciones{
+    width: 100%;
+    margin-top: 1.6rem;
+    font-size: 2.2rem;
+}
+.cont_prod_inscripciones{
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.text_inscripciones{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.cont_btn_finalizar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.finalizar_inscripcion{
+    color: white;
+    background: #00AEEF;
+    border: unset;
+    border-radius: 3%;
+    width: 70%;
+    height: 30px;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cont_btn_inscripciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.dirInscripciones {
+    width: 12%;
+    text-align: center;
+    background: #00AEEF !important;
+    color: white;
+    padding: 1% 0;
+    text-decoration: none;
+    border-radius: 5px;
+}

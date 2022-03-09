@@ -15,7 +15,8 @@
     "children": [
       "rich-text#header-info",
       "flex-layout.row#desktop",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "js-confirmation"
     ]
   },
   "sticky-layout#desktop": {
