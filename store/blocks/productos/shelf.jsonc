@@ -5,6 +5,7 @@
       "product-summary-image",
       "vtex.store-components:product-brand#shelf",
       "product-summary-name",
+      //"product-summary-sku-selector",
       "flex-layout.row#contenedor-shelf",
       "product-rating-inline#shelf",
       "add-to-cart-button#shelf"
@@ -18,6 +19,7 @@
       "product-summary-image",
       "product-summary-brand#category",
       "product-summary-name#category",
+      "product-summary-sku-selector",
       "flex-layout.row#contenedor-shelf",
       "product-rating-inline#shelf",
       "add-to-cart-button#shelf"
@@ -171,13 +173,20 @@
   },
   "product-summary-sku-selector": {
     "props": {
-      "blockClass": "selector",
+      "showVariationsLabels": ["false"],
       "displayMode": "slider",
-      "sliderItemsPerPage": 3,
-      "hideImpossibleCombinations": false,
+      "blockClass": "selector",
+      "initialSelection": "empty",
+      "sliderItemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      }
+      /*
+      
+      
       "maxItems": 3,
-      "showValueForVariation": "image",
-      "showVariationsLabels": "none"
+      "showValueForVariation": "image"*/
     }
   },
   "add-to-cart-button#shelf": {

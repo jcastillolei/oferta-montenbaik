@@ -116,7 +116,7 @@
       "flex-layout.col#spacer-producto2",
       "flex-layout.row#cart-button",
       "availability-notify",
-      "product-identifier.product",
+      //"product-identifier.product",
       "product-seller-name",
       "link-seller"
     ],
@@ -446,7 +446,7 @@
       "product-quantity",
       "add-to-cart-button#product",
       "availability-notify",
-      "product-identifier.product",
+      //"product-identifier.product",
       "product-seller-name",
       "link-seller",
       "product-description#mobile",

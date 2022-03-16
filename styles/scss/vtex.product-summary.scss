@@ -57,6 +57,10 @@
   margin-right: 10px;
 }
 
+.nameContainer--category {
+  padding-bottom: 0px;
+}
+
 .brandName {
   font-family: l.$font-3;
   font-weight: 400;
@@ -109,12 +113,16 @@
 }
 
 .SKUSelectorContainer--selector {
-  visibility: hidden;
   margin-bottom: auto;
-}
 
-.element--product-summary:hover .SKUSelectorContainer--selector {
-  visibility: visible;
+  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+    display: none;
+  }
+
+  .valueWrapper--selector{
+    display: flex;
+    align-items: center;
+  }
 }
 
 .imageStackContainer {
