@@ -176,7 +176,7 @@
       "showVariationsLabels": ["false"],
       "displayMode": "slider",
       "blockClass": "selector",
-      "initialSelection": "empty",
+      //"initialSelection": "empty",
       "sliderItemsPerPage": {
         "desktop": 3,
         "tablet": 2,
