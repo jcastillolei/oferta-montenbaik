@@ -440,9 +440,9 @@
   },
   "flex-layout.col#right-mobile": {
     "children": [
+      "sku-selector#mobile",
       "flex-layout.row#Precio",
       "product-price-savings",
-      "sku-selector#mobile",
       "product-quantity",
       "add-to-cart-button#product",
       "availability-notify",
@@ -477,7 +477,7 @@
   },
   "sku-selector#mobile": {
     "props": {
-      "visibility": "more-than-one",
+      "visibility": "always",
       "hideImpossibleCombinations": true,
       "showValueForVariation": "image",
       "initialSelection": "image",
