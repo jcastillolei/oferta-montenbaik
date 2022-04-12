@@ -182,11 +182,6 @@
         "tablet": 2,
         "phone": 2
       }
-      /*
-      
-      
-      "maxItems": 3,
-      "showValueForVariation": "image"*/
     }
   },
   "add-to-cart-button#shelf": {

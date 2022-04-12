@@ -115,7 +115,8 @@
 .SKUSelectorContainer--selector {
   margin-bottom: auto;
 
-  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla),
+  :global(.vtex-store-components-3-x-skuSelectorSubcontainer--medidas){
     display: none;
   }
 
